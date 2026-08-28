@@ -9,7 +9,7 @@ gdjs.evtsExt__Gamepads__StickForce = {};
 gdjs.evtsExt__Gamepads__StickForce.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Gamepads__StickForce.userFunc0x18d61c8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__StickForce.userFunc0x1ab19a8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const { getNormalizedAxisValue } = gdjs._extensionController;
 
@@ -39,7 +39,7 @@ gdjs.evtsExt__Gamepads__StickForce.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__Gamepads__StickForce.userFunc0x18d61c8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gamepads__StickForce.userFunc0x1ab19a8(runtimeScene, eventsFunctionContext);
 
 }
 
