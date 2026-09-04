@@ -9,7 +9,7 @@ gdjs.evtsExt__Gamepads__A_Advanced_Vibration_Controller = {};
 gdjs.evtsExt__Gamepads__A_Advanced_Vibration_Controller.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Gamepads__A_Advanced_Vibration_Controller.userFunc0x3385ca8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__A_Advanced_Vibration_Controller.userFunc0x10271a8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const { clamp } = gdjs.evtTools.common;
 const playerId = eventsFunctionContext.getArgument("PlayerId") - 1;
@@ -42,7 +42,7 @@ gdjs.evtsExt__Gamepads__A_Advanced_Vibration_Controller.eventsList0 = function(r
 {
 
 
-gdjs.evtsExt__Gamepads__A_Advanced_Vibration_Controller.userFunc0x3385ca8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gamepads__A_Advanced_Vibration_Controller.userFunc0x10271a8(runtimeScene, eventsFunctionContext);
 
 }
 
