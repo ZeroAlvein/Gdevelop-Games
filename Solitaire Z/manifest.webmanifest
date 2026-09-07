@@ -1,7 +1,7 @@
 {
   "name": "Solitaire Z",
   "short_name": "Solitaire Z",
-  "id": "com.ZeroX4.SolitaireZ",
+  "id": "com.example.zerox4.solitairez",
   "description": "",
   "orientation": "portrait",
   "start_url": "./index.html",
