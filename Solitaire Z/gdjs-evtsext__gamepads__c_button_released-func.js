@@ -9,7 +9,7 @@ gdjs.evtsExt__Gamepads__C_Button_released = {};
 gdjs.evtsExt__Gamepads__C_Button_released.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Gamepads__C_Button_released.userFunc0x149db20 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__C_Button_released.userFunc0xafc3f0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 
 const playerId = eventsFunctionContext.getArgument("PlayerId") - 1;
@@ -27,7 +27,7 @@ gdjs.evtsExt__Gamepads__C_Button_released.eventsList0 = function(runtimeScene, e
 {
 
 
-gdjs.evtsExt__Gamepads__C_Button_released.userFunc0x149db20(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gamepads__C_Button_released.userFunc0xafc3f0(runtimeScene, eventsFunctionContext);
 
 }
 

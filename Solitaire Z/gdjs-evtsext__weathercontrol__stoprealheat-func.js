@@ -9,7 +9,7 @@ gdjs.evtsExt__WeatherControl__StopRealHeat = {};
 gdjs.evtsExt__WeatherControl__StopRealHeat.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__WeatherControl__StopRealHeat.userFunc0x16a7da0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WeatherControl__StopRealHeat.userFunc0xff9710 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const layerName = eventsFunctionContext.getArgument("LayerName") || "";
 
@@ -31,7 +31,7 @@ gdjs.evtsExt__WeatherControl__StopRealHeat.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__WeatherControl__StopRealHeat.userFunc0x16a7da0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__WeatherControl__StopRealHeat.userFunc0xff9710(runtimeScene, eventsFunctionContext);
 
 }
 
