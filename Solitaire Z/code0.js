@@ -246,12 +246,23 @@ gdjs.GameCode.eventsList0(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = !(gdjs.evtTools.window.isFullScreen(runtimeScene));
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Button9").getAsNumber() == 2);
+}
 if (isConditionTrue_0) {
 {gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
 }
 {gdjs.evtTools.window.setGameResolutionResizeMode(runtimeScene, "adaptHeight");
 }
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
 }
 
 }
