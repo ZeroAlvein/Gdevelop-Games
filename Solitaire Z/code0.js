@@ -223,7 +223,7 @@ isConditionTrue_2 = false;
 isConditionTrue_2 = !(gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene));
 if (isConditionTrue_2) {
 isConditionTrue_2 = false;
-{isConditionTrue_2 = runtimeScene.getOnceTriggers().triggerOnce(15965004);
+{isConditionTrue_2 = runtimeScene.getOnceTriggers().triggerOnce(20253140);
 }
 }
 isConditionTrue_1 = isConditionTrue_2;
@@ -1631,7 +1631,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(2).getChild(0).getChild("TempFrame").getAsNumber() < 3);
 }
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(2).getChild(0).getChild("TempHeight").setNumber(Math.round(gdjs.evtTools.camera.getCameraBorderBottom(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(2).getChild("ButtonH").getAsNumber() * 5 - 20));
+{runtimeScene.getScene().getVariables().getFromIndex(2).getChild(0).getChild("TempHeight").setNumber(Math.round(gdjs.evtTools.camera.getCameraBorderBottom(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(2).getChild("ButtonH").getAsNumber() * 5 - 20 + (40 - (runtimeScene.getGame().getVariables().getFromIndex(1).getChild("ButtonPosY").getAsNumber() * 4))));
 }
 {runtimeScene.getScene().getVariables().getFromIndex(2).getChild(0).getChild("TempFrame").add(1);
 }
@@ -1787,7 +1787,7 @@ gdjs.GameCode.localVariables.pop();
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14289236);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12458300);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Up").setNumber(2);
@@ -1816,7 +1816,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16062508);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18641220);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Down").setNumber(2);
@@ -1845,7 +1845,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12832372);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15324980);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Left").setNumber(2);
@@ -1874,7 +1874,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23932980);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15449252);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Right").setNumber(2);
@@ -1903,7 +1903,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12445492);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16367884);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Button1").setNumber(2);
@@ -1932,7 +1932,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14727892);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20191852);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Button3").setNumber(2);
@@ -1961,7 +1961,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10050524);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10775060);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Button5").setNumber(2);
@@ -1990,7 +1990,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13846196);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13492612);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Button7").setNumber(2);
@@ -2019,7 +2019,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17315876);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18190532);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Button9").setNumber(2);
@@ -2557,7 +2557,7 @@ gdjs.GameCode.eventsList38(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13401428);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20899396);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Up").setNumber(1);
@@ -2589,7 +2589,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13682868);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17834804);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Down").setNumber(1);
@@ -2621,7 +2621,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17447500);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13185868);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Left").setNumber(1);
@@ -2653,7 +2653,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18190196);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12484844);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Right").setNumber(1);
@@ -2685,7 +2685,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13825964);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17306756);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Button1").setNumber(1);
@@ -2717,7 +2717,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23620412);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17080684);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Button3").setNumber(1);
@@ -2749,7 +2749,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13158956);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13261796);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Button5").setNumber(1);
@@ -2781,7 +2781,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14041420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12516932);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Button7").setNumber(1);
@@ -2813,7 +2813,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16358148);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18569188);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("Button9").setNumber(1);
@@ -3585,7 +3585,7 @@ gdjs.GameCode.eventsList48(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18089220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14534876);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.input.touchSimulateMouse(runtimeScene, false);
@@ -4147,7 +4147,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22052812);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21821092);
 }
 }
 if (isConditionTrue_0) {
@@ -4184,7 +4184,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9341388);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16746244);
 }
 }
 if (isConditionTrue_0) {
@@ -4221,7 +4221,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23714100);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20286700);
 }
 }
 if (isConditionTrue_0) {
@@ -4260,7 +4260,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17891804);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17817948);
 }
 }
 if (isConditionTrue_0) {
@@ -4301,7 +4301,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18641676);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15711516);
 }
 }
 if (isConditionTrue_0) {
@@ -4342,7 +4342,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18211612);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14019908);
 }
 }
 if (isConditionTrue_0) {
@@ -4383,7 +4383,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16191980);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16794068);
 }
 }
 if (isConditionTrue_0) {
@@ -4424,7 +4424,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16452732);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21310284);
 }
 }
 if (isConditionTrue_0) {
@@ -4465,7 +4465,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14950316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17938324);
 }
 }
 if (isConditionTrue_0) {
@@ -4506,7 +4506,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21703068);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18280820);
 }
 }
 if (isConditionTrue_0) {
@@ -4634,7 +4634,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17288996);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18270908);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(16).getChild(0).getChild("Left").setNumber(0.06);
@@ -4703,7 +4703,7 @@ gdjs.GameCode.eventsList73(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21027012);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18070596);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(16).getChild(0).getChild("Right").setNumber(0.06);
@@ -4809,6 +4809,18 @@ let isConditionTrue_0 = false;
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().getFromIndex(2).getChild(0).getChild("TempFrame").setNumber(2);
+}
+}
+
+}
+
+
 };gdjs.GameCode.eventsList78 = function(runtimeScene) {
 
 {
@@ -4853,6 +4865,18 @@ let isConditionTrue_0 = false;
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getScene().getVariables().getFromIndex(2).getChild(0).getChild("TempFrame").setNumber(2);
+}
+}
+
+}
+
+
 };gdjs.GameCode.eventsList79 = function(runtimeScene) {
 
 {
@@ -4878,7 +4902,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15572540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10204004);
 }
 }
 if (isConditionTrue_0) {
@@ -4899,7 +4923,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14041524);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17767076);
 }
 }
 if (isConditionTrue_0) {
@@ -5123,7 +5147,7 @@ gdjs.GameCode.eventsList80(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15951620);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17596668);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(2).getChild(0).getChild("Help").setString("Hold Numpad/Button 3 or C\nTo restart game\n");
@@ -6276,7 +6300,7 @@ gdjs.GameCode.localVariables.pop();
 
 
 };gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDCardsObjects4Objects = Hashtable.newFrom({"Cards": gdjs.GameCode.GDCardsObjects4});
-gdjs.GameCode.asyncCallback13026836 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback20473580 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GameCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Cards"), gdjs.GameCode.GDCardsObjects5);
 
@@ -6296,7 +6320,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Cards"), gdjs.GameCode.GDCardsObject
 }
 gdjs.GameCode.localVariables.length = 0;
 }
-gdjs.GameCode.idToCallbackMap.set(13026836, gdjs.GameCode.asyncCallback13026836);
+gdjs.GameCode.idToCallbackMap.set(20473580, gdjs.GameCode.asyncCallback20473580);
 gdjs.GameCode.eventsList113 = function(runtimeScene) {
 
 {
@@ -6307,7 +6331,7 @@ gdjs.GameCode.eventsList113 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.GameCode.localVariables);
 for (const obj of gdjs.GameCode.GDCardsObjects4) asyncObjectsList.addObject("Cards", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(16).getChild("Speed").getAsNumber()), (runtimeScene) => (gdjs.GameCode.asyncCallback13026836(runtimeScene, asyncObjectsList)), 13026836, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(16).getChild("Speed").getAsNumber()), (runtimeScene) => (gdjs.GameCode.asyncCallback20473580(runtimeScene, asyncObjectsList)), 20473580, asyncObjectsList);
 }
 }
 
@@ -6649,7 +6673,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21310284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16002860);
 }
 }
 }
@@ -11923,7 +11947,7 @@ gdjs.GameCode.eventsList238(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.GameCode.asyncCallback15964540 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback17273204 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GameCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Cards"), gdjs.GameCode.GDCardsObjects8);
 
@@ -11937,7 +11961,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Cards"), gdjs.GameCode.GDCardsObject
 }
 gdjs.GameCode.localVariables.length = 0;
 }
-gdjs.GameCode.idToCallbackMap.set(15964540, gdjs.GameCode.asyncCallback15964540);
+gdjs.GameCode.idToCallbackMap.set(17273204, gdjs.GameCode.asyncCallback17273204);
 gdjs.GameCode.eventsList240 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -11949,14 +11973,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.GameCode.localVariables);
 for (const obj of gdjs.GameCode.GDCardsObjects7) asyncObjectsList.addObject("Cards", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.11), (runtimeScene) => (gdjs.GameCode.asyncCallback15964540(runtimeScene, asyncObjectsList)), 15964540, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.11), (runtimeScene) => (gdjs.GameCode.asyncCallback17273204(runtimeScene, asyncObjectsList)), 17273204, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback23937700 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback14016596 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GameCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Cards"), gdjs.GameCode.GDCardsObjects7);
 
@@ -11977,7 +12001,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Cards"), gdjs.GameCode.GDCardsObject
 gdjs.GameCode.eventsList240(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.GameCode.localVariables.length = 0;
 }
-gdjs.GameCode.idToCallbackMap.set(23937700, gdjs.GameCode.asyncCallback23937700);
+gdjs.GameCode.idToCallbackMap.set(14016596, gdjs.GameCode.asyncCallback14016596);
 gdjs.GameCode.eventsList241 = function(runtimeScene) {
 
 {
@@ -11988,7 +12012,7 @@ gdjs.GameCode.eventsList241 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.GameCode.localVariables);
 for (const obj of gdjs.GameCode.GDCardsObjects5) asyncObjectsList.addObject("Cards", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.11), (runtimeScene) => (gdjs.GameCode.asyncCallback23937700(runtimeScene, asyncObjectsList)), 23937700, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.11), (runtimeScene) => (gdjs.GameCode.asyncCallback14016596(runtimeScene, asyncObjectsList)), 14016596, asyncObjectsList);
 }
 }
 
@@ -14000,7 +14024,7 @@ let isConditionTrue_0 = false;
 
 }
 
-};gdjs.GameCode.asyncCallback17679228 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback23641492 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GameCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Cards"), gdjs.GameCode.GDCardsObjects7);
 
@@ -14016,7 +14040,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Cards"), gdjs.GameCode.GDCardsObject
 }
 gdjs.GameCode.localVariables.length = 0;
 }
-gdjs.GameCode.idToCallbackMap.set(17679228, gdjs.GameCode.asyncCallback17679228);
+gdjs.GameCode.idToCallbackMap.set(23641492, gdjs.GameCode.asyncCallback23641492);
 gdjs.GameCode.eventsList278 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -14028,14 +14052,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.GameCode.localVariables);
 for (const obj of gdjs.GameCode.GDCardsObjects6) asyncObjectsList.addObject("Cards", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(gdjs.GameCode.localVariables[1].getFromIndex(0).getAsNumber() + 0.05), (runtimeScene) => (gdjs.GameCode.asyncCallback17679228(runtimeScene, asyncObjectsList)), 17679228, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(gdjs.GameCode.localVariables[1].getFromIndex(0).getAsNumber() + 0.05), (runtimeScene) => (gdjs.GameCode.asyncCallback23641492(runtimeScene, asyncObjectsList)), 23641492, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback18717508 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20503540 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GameCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Cards"), gdjs.GameCode.GDCardsObjects6);
 
@@ -14064,7 +14088,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Cards"), gdjs.GameCode.GDCardsObject
 gdjs.GameCode.eventsList278(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.GameCode.localVariables.length = 0;
 }
-gdjs.GameCode.idToCallbackMap.set(18717508, gdjs.GameCode.asyncCallback18717508);
+gdjs.GameCode.idToCallbackMap.set(20503540, gdjs.GameCode.asyncCallback20503540);
 gdjs.GameCode.eventsList279 = function(runtimeScene) {
 
 {
@@ -14075,7 +14099,7 @@ gdjs.GameCode.eventsList279 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.GameCode.localVariables);
 for (const obj of gdjs.GameCode.GDCardsObjects5) asyncObjectsList.addObject("Cards", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(gdjs.GameCode.localVariables[1].getFromIndex(0).getAsNumber() + 0.01), (runtimeScene) => (gdjs.GameCode.asyncCallback18717508(runtimeScene, asyncObjectsList)), 18717508, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(gdjs.GameCode.localVariables[1].getFromIndex(0).getAsNumber() + 0.01), (runtimeScene) => (gdjs.GameCode.asyncCallback20503540(runtimeScene, asyncObjectsList)), 20503540, asyncObjectsList);
 }
 }
 
@@ -15950,7 +15974,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDHandObjects4.length;i<l;++i) {
 gdjs.GameCode.GDHandObjects4.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17256748);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11412444);
 }
 }
 if (isConditionTrue_0) {
@@ -15980,7 +16004,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDHandObjects3.length;i<l;++i) {
 gdjs.GameCode.GDHandObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15883252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12461004);
 }
 }
 if (isConditionTrue_0) {
@@ -16141,7 +16165,7 @@ if (true) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13860372);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21450844);
 }
 if (isConditionTrue_0) {
 
@@ -16614,7 +16638,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(8483500);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13336972);
 }
 if (isConditionTrue_0) {
 gdjs.GameCode.GDTextObjects2.length = 0;
@@ -16647,7 +16671,7 @@ gdjs.GameCode.GDTextFrameObjects2.length = 0;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14004596);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19360612);
 }
 if (isConditionTrue_0) {
 gdjs.GameCode.GDTextObjects2.length = 0;
