@@ -9,7 +9,7 @@ gdjs.evtsExt__WeatherControl__SpawnWaterRipple = {};
 gdjs.evtsExt__WeatherControl__SpawnWaterRipple.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__WeatherControl__SpawnWaterRipple.userFunc0x16dd990 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WeatherControl__SpawnWaterRipple.userFunc0x16e0340 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const layerName = eventsFunctionContext.getArgument("LayerName") || "";
 const x = Number(eventsFunctionContext.getArgument("X")) || 0;
@@ -50,7 +50,7 @@ gdjs.evtsExt__WeatherControl__SpawnWaterRipple.eventsList0 = function(runtimeSce
 {
 
 
-gdjs.evtsExt__WeatherControl__SpawnWaterRipple.userFunc0x16dd990(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__WeatherControl__SpawnWaterRipple.userFunc0x16e0340(runtimeScene, eventsFunctionContext);
 
 }
 
