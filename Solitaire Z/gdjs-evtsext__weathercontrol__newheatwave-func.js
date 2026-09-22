@@ -9,7 +9,7 @@ gdjs.evtsExt__WeatherControl__NewheatWave = {};
 gdjs.evtsExt__WeatherControl__NewheatWave.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__WeatherControl__NewheatWave.userFunc0x1707020 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WeatherControl__NewheatWave.userFunc0x17087e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const layerName = eventsFunctionContext.getArgument("LayerName");
 const bandWidthRaw = Number(eventsFunctionContext.getArgument("BandWidth")) || 100;
@@ -137,7 +137,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__WeatherControl__NewheatWave.userFunc0x1707020(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__WeatherControl__NewheatWave.userFunc0x17087e0(runtimeScene, eventsFunctionContext);
 
 }
 

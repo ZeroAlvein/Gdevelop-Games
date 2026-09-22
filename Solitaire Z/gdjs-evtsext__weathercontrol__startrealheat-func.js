@@ -9,7 +9,7 @@ gdjs.evtsExt__WeatherControl__StartRealHeat = {};
 gdjs.evtsExt__WeatherControl__StartRealHeat.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__WeatherControl__StartRealHeat.userFunc0x16f89c8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WeatherControl__StartRealHeat.userFunc0x16fa188 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const layerName = eventsFunctionContext.getArgument("LayerName") || "";
 const strengthRaw = Number(eventsFunctionContext.getArgument("Strength")) || 25;
@@ -120,7 +120,7 @@ gdjs.evtsExt__WeatherControl__StartRealHeat.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__WeatherControl__StartRealHeat.userFunc0x16f89c8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__WeatherControl__StartRealHeat.userFunc0x16fa188(runtimeScene, eventsFunctionContext);
 
 }
 

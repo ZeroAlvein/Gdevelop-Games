@@ -9,7 +9,7 @@ gdjs.evtsExt__WeatherControl__Bubble = {};
 gdjs.evtsExt__WeatherControl__Bubble.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__WeatherControl__Bubble.userFunc0x1709670 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WeatherControl__Bubble.userFunc0x170ae30 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const layerName = eventsFunctionContext.getArgument("LayerName") || "";
 
@@ -367,7 +367,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__WeatherControl__Bubble.userFunc0x1709670(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__WeatherControl__Bubble.userFunc0x170ae30(runtimeScene, eventsFunctionContext);
 
 }
 

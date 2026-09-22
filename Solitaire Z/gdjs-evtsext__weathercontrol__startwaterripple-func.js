@@ -9,7 +9,7 @@ gdjs.evtsExt__WeatherControl__StartWaterRipple = {};
 gdjs.evtsExt__WeatherControl__StartWaterRipple.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__WeatherControl__StartWaterRipple.userFunc0x16e0340 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WeatherControl__StartWaterRipple.userFunc0x16e1b00 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const layerName = eventsFunctionContext.getArgument("LayerName") || "";
 
@@ -30,7 +30,7 @@ if (!runtimeScene.rippleSystems[layerName]) {
   };
 }
 };
-gdjs.evtsExt__WeatherControl__StartWaterRipple.userFunc0x16da810 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WeatherControl__StartWaterRipple.userFunc0x16dbfd0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const layerName     = eventsFunctionContext.getArgument("LayerName")     || "";
 const emitterCount  = Number(eventsFunctionContext.getArgument("EmitterCount"))  || 0;
@@ -134,7 +134,7 @@ gdjs.evtsExt__WeatherControl__StartWaterRipple.eventsList0 = function(runtimeSce
 {
 
 
-gdjs.evtsExt__WeatherControl__StartWaterRipple.userFunc0x16e0340(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__WeatherControl__StartWaterRipple.userFunc0x16e1b00(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -142,7 +142,7 @@ gdjs.evtsExt__WeatherControl__StartWaterRipple.userFunc0x16e0340(runtimeScene, e
 {
 
 
-gdjs.evtsExt__WeatherControl__StartWaterRipple.userFunc0x16da810(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__WeatherControl__StartWaterRipple.userFunc0x16dbfd0(runtimeScene, eventsFunctionContext);
 
 }
 
