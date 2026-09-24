@@ -9,7 +9,7 @@ gdjs.evtsExt__WeatherControl__StartRain = {};
 gdjs.evtsExt__WeatherControl__StartRain.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__WeatherControl__StartRain.userFunc0x17aacb8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WeatherControl__StartRain.userFunc0x17589a8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const layerName = eventsFunctionContext.getArgument("LayerName") || "";
 
@@ -26,7 +26,7 @@ if (!runtimeScene.rainSystems[layerName]) {
   runtimeScene.rainSystems[layerName] = { container, drops: [], filled: false };
 }
 };
-gdjs.evtsExt__WeatherControl__StartRain.userFunc0x17c7f58 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WeatherControl__StartRain.userFunc0x17c2dc8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const layerName = eventsFunctionContext.getArgument("LayerName") || "";
 const density   = Number(eventsFunctionContext.getArgument("Density"))   || 0;
@@ -143,7 +143,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__WeatherControl__StartRain.userFunc0x17aacb8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__WeatherControl__StartRain.userFunc0x17589a8(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -151,7 +151,7 @@ gdjs.evtsExt__WeatherControl__StartRain.userFunc0x17aacb8(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__WeatherControl__StartRain.userFunc0x17c7f58(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__WeatherControl__StartRain.userFunc0x17c2dc8(runtimeScene, eventsFunctionContext);
 
 }
 
