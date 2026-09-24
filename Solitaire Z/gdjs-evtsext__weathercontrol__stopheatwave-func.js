@@ -9,7 +9,7 @@ gdjs.evtsExt__WeatherControl__StopHeatWave = {};
 gdjs.evtsExt__WeatherControl__StopHeatWave.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__WeatherControl__StopHeatWave.userFunc0x16ef780 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WeatherControl__StopHeatWave.userFunc0x17b4a28 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const layerName = eventsFunctionContext.getArgument("LayerName");
 const game = runtimeScene.getGame();
@@ -36,7 +36,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__WeatherControl__StopHeatWave.userFunc0x16ef780(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__WeatherControl__StopHeatWave.userFunc0x17b4a28(runtimeScene, eventsFunctionContext);
 
 }
 
