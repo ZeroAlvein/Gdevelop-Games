@@ -9,7 +9,7 @@ gdjs.evtsExt__WeatherControl__StartMirageLine = {};
 gdjs.evtsExt__WeatherControl__StartMirageLine.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__WeatherControl__StartMirageLine.userFunc0x17fc110 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WeatherControl__StartMirageLine.userFunc0x39e2230 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const layerName = eventsFunctionContext.getArgument("LayerName") || "";
 const intensityPx       = Number(eventsFunctionContext.getArgument("Intensity"))       || 2;
@@ -138,7 +138,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__WeatherControl__StartMirageLine.userFunc0x17fc110(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__WeatherControl__StartMirageLine.userFunc0x39e2230(runtimeScene, eventsFunctionContext);
 
 }
 

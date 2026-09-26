@@ -9,7 +9,7 @@ gdjs.evtsExt__WeatherControl__FireFlies = {};
 gdjs.evtsExt__WeatherControl__FireFlies.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__WeatherControl__FireFlies.userFunc0x181a1b0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WeatherControl__FireFlies.userFunc0x1cff490 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const layerName = eventsFunctionContext.getArgument("LayerName") || "";
 
@@ -342,7 +342,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__WeatherControl__FireFlies.userFunc0x181a1b0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__WeatherControl__FireFlies.userFunc0x1cff490(runtimeScene, eventsFunctionContext);
 
 }
 
