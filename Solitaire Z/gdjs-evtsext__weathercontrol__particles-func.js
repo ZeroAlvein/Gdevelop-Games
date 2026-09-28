@@ -9,7 +9,7 @@ gdjs.evtsExt__WeatherControl__Particles = {};
 gdjs.evtsExt__WeatherControl__Particles.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__WeatherControl__Particles.userFunc0x1839e38 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WeatherControl__Particles.userFunc0x1838f98 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const layerName = eventsFunctionContext.getArgument("LayerName") || "";
 
@@ -396,7 +396,7 @@ gdjs.evtsExt__WeatherControl__Particles.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__WeatherControl__Particles.userFunc0x1839e38(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__WeatherControl__Particles.userFunc0x1838f98(runtimeScene, eventsFunctionContext);
 
 }
 
