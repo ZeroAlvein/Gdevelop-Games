@@ -49,6 +49,7 @@
 	<script src="RuntimeCustomObjectLayer.js" crossorigin="anonymous"></script>
 	<script src="timer.js" crossorigin="anonymous"></script>
 	<script src="runtimewatermark.js" crossorigin="anonymous"></script>
+	<script src="named-easings-manager.js" crossorigin="anonymous"></script>
 	<script src="runtimegame.js" crossorigin="anonymous"></script>
 	<script src="variable.js" crossorigin="anonymous"></script>
 	<script src="variablescontainer.js" crossorigin="anonymous"></script>
@@ -180,6 +181,14 @@
 	<script>
 
     (function() {
+        //Check the game files were all loaded (in a preview, they can be exported
+        //again while this page is still loading them).
+        if (!gdjs.projectData) {
+            throw new Error(
+                "The game data was not loaded: some files of the game are missing or could not be read."
+            );
+        }
+
         //Initialization
         var game = new gdjs.RuntimeGame(gdjs.projectData, gdjs.runtimeGameOptions);
 
