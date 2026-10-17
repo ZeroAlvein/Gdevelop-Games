@@ -1,7 +1,7 @@
 {
   "name": "One Card Z",
   "short_name": "One Card Z",
-  "id": "com.zerox4.cardonez",
+  "id": "com.zerox4.onecardz",
   "description": "Did you ever wonder, how stupid it would be to deal 20 cards on start to each player in UNO game?\nWell you don't need to wonder anymore.",
   "orientation": "landscape",
   "start_url": "./index.html",
