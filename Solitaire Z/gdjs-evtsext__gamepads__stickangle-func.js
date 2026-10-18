@@ -9,7 +9,7 @@ gdjs.evtsExt__Gamepads__StickAngle = {};
 gdjs.evtsExt__Gamepads__StickAngle.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Gamepads__StickAngle.userFunc0x151c750 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__StickAngle.userFunc0x2d35e08 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const { getNormalizedAxisValue } = gdjs._extensionController;
 
@@ -38,7 +38,7 @@ gdjs.evtsExt__Gamepads__StickAngle.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__Gamepads__StickAngle.userFunc0x151c750(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gamepads__StickAngle.userFunc0x2d35e08(runtimeScene, eventsFunctionContext);
 
 }
 
