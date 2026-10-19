@@ -335,6 +335,8 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.camera.setCameraZoom(runtimeScene, 2, "Orbs", 0);
 }
+{gdjs.evtTools.camera.setCameraZoom(runtimeScene, 2, "Win", 0);
+}
 
 { //Subevents
 gdjs.OneCardZCode.eventsList2(runtimeScene);} //End of subevents
@@ -612,6 +614,10 @@ gdjs.OneCardZCode.GDCardsObjects2.length = 0;
 }
 {gdjs.evtTools.camera.setCameraY(runtimeScene, (( gdjs.OneCardZCode.GDCardsObjects2.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects2[0].getCenterYInScene()), "Orbs", 0);
 }
+{gdjs.evtTools.camera.setCameraX(runtimeScene, (( gdjs.OneCardZCode.GDCardsObjects2.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects2[0].getPointX("")) + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() * 3, "Win", 0);
+}
+{gdjs.evtTools.camera.setCameraY(runtimeScene, (( gdjs.OneCardZCode.GDCardsObjects2.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects2[0].getCenterYInScene()), "Win", 0);
+}
 {for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects2.length ;i < len;++i) {
     gdjs.OneCardZCode.GDCardsObjects2[i].deleteFromScene(runtimeScene);
 }
@@ -684,7 +690,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustResumed(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22744364);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24036564);
 }
 }
 if (isConditionTrue_0) {
@@ -1370,7 +1376,7 @@ gdjs.OneCardZCode.localVariables.pop();
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21993316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18866684);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Up").setNumber(2);
@@ -1399,7 +1405,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21997996);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11733652);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Down").setNumber(2);
@@ -1428,7 +1434,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21990476);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12503980);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Left").setNumber(2);
@@ -1457,7 +1463,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21987844);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18535540);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Right").setNumber(2);
@@ -1486,7 +1492,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22783980);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10446540);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Settings").setNumber(2);
@@ -1515,7 +1521,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22788700);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15778476);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Action").setNumber(2);
@@ -1908,7 +1914,7 @@ gdjs.OneCardZCode.eventsList27(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22795548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25458844);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Up").setNumber(1);
@@ -1940,7 +1946,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22797932);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21830268);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Down").setNumber(1);
@@ -1972,7 +1978,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22782476);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10308348);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Left").setNumber(1);
@@ -2004,7 +2010,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22782628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19499668);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Right").setNumber(1);
@@ -2036,7 +2042,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20856716);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12624620);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Settings").setNumber(1);
@@ -2068,7 +2074,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20863580);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13535044);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Action").setNumber(1);
@@ -2630,7 +2636,7 @@ gdjs.OneCardZCode.eventsList34(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21985164);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18526140);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.input.touchSimulateMouse(runtimeScene, false);
@@ -4334,7 +4340,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20926940);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19287900);
 }
 }
 if (isConditionTrue_0) {
@@ -4730,44 +4736,44 @@ gdjs.OneCardZCode.eventsList79(runtimeScene);
 
 {
 
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
 
-gdjs.OneCardZCode.forEachObjects5.length = 0;
-gdjs.OneCardZCode.forEachObjects5.push.apply(gdjs.OneCardZCode.forEachObjects5,gdjs.OneCardZCode.GDCardsObjects4);
-gdjs.OneCardZCode.forEachTotalCount5 = gdjs.OneCardZCode.forEachObjects5.length;
-gdjs.OneCardZCode.forEachSortKeys5.length = 0;
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachTotalCount5;++gdjs.OneCardZCode.forEachIndex5) {
-gdjs.OneCardZCode.GDCardsObjects5.length = 0;
+gdjs.OneCardZCode.forEachObjects6.length = 0;
+gdjs.OneCardZCode.forEachObjects6.push.apply(gdjs.OneCardZCode.forEachObjects6,gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.OneCardZCode.forEachTotalCount6 = gdjs.OneCardZCode.forEachObjects6.length;
+gdjs.OneCardZCode.forEachSortKeys6.length = 0;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachTotalCount6;++gdjs.OneCardZCode.forEachIndex6) {
+gdjs.OneCardZCode.GDCardsObjects6.length = 0;
 
 
-gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachObjects5[gdjs.OneCardZCode.forEachIndex5]);
-gdjs.OneCardZCode.forEachSortKeys5.push(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(0).getAsNumber() + ((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(1).getAsNumber() * 16);
+gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachObjects6[gdjs.OneCardZCode.forEachIndex6]);
+gdjs.OneCardZCode.forEachSortKeys6.push(((gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects6[0].getVariables()).getFromIndex(0).getAsNumber() + ((gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects6[0].getVariables()).getFromIndex(1).getAsNumber() * 16);
 }
-gdjs.OneCardZCode.forEachSorted5.length = 0;
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachTotalCount5;++gdjs.OneCardZCode.forEachIndex5) gdjs.OneCardZCode.forEachSorted5.push(gdjs.OneCardZCode.forEachIndex5);
-gdjs.OneCardZCode.forEachSorted5.sort(function(a, b) { return false ? gdjs.OneCardZCode.forEachSortKeys5[b] - gdjs.OneCardZCode.forEachSortKeys5[a] : gdjs.OneCardZCode.forEachSortKeys5[a] - gdjs.OneCardZCode.forEachSortKeys5[b]; });
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachSorted5.length;++gdjs.OneCardZCode.forEachIndex5) {
-gdjs.OneCardZCode.GDCardsObjects5.length = 0;
+gdjs.OneCardZCode.forEachSorted6.length = 0;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachTotalCount6;++gdjs.OneCardZCode.forEachIndex6) gdjs.OneCardZCode.forEachSorted6.push(gdjs.OneCardZCode.forEachIndex6);
+gdjs.OneCardZCode.forEachSorted6.sort(function(a, b) { return false ? gdjs.OneCardZCode.forEachSortKeys6[b] - gdjs.OneCardZCode.forEachSortKeys6[a] : gdjs.OneCardZCode.forEachSortKeys6[a] - gdjs.OneCardZCode.forEachSortKeys6[b]; });
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachSorted6.length;++gdjs.OneCardZCode.forEachIndex6) {
+gdjs.OneCardZCode.GDCardsObjects6.length = 0;
 
 
-gdjs.OneCardZCode.forEachTemporary5 = gdjs.OneCardZCode.forEachObjects5[gdjs.OneCardZCode.forEachSorted5[gdjs.OneCardZCode.forEachIndex5]];
-gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachTemporary5);
+gdjs.OneCardZCode.forEachTemporary6 = gdjs.OneCardZCode.forEachObjects6[gdjs.OneCardZCode.forEachSorted6[gdjs.OneCardZCode.forEachIndex6]];
+gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachTemporary6);
 let isConditionTrue_0 = false;
 if (true) {
-{runtimeScene.getScene().getVariables().getFromIndex(8).getChild(gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber()).getChild("Color").setNumber(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(1).getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(8).getChild(gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber()).getChild("Color").setNumber(((gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects6[0].getVariables()).getFromIndex(1).getAsNumber());
 }
-{runtimeScene.getScene().getVariables().getFromIndex(8).getChild(gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber()).getChild("Value").setNumber(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(0).getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(8).getChild(gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber()).getChild("Value").setNumber(((gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects6[0].getVariables()).getFromIndex(0).getAsNumber());
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(7)).setNumber(gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber());
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)).setNumber(0);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(7)).setNumber(gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber());
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)).setNumber(0);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(5)).setNumber(0);
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(6)).setNumber(0);
 }
 }
 {gdjs.OneCardZCode.localVariables[0].getFromIndex(0).add(1);
@@ -4784,7 +4790,7 @@ if (true) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 {
 const variables = new gdjs.VariablesContainer();
@@ -4797,14 +4803,14 @@ gdjs.OneCardZCode.localVariables.push(variables);
 }
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
@@ -4941,13 +4947,64 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects4, gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects5, gdjs.OneCardZCode.GDCardsObjects6);
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(1)) == 4 ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
+if (isConditionTrue_0) {
+/* Reuse gdjs.OneCardZCode.GDCardsObjects6 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(6)).setNumber(1);
+}
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects5, gdjs.OneCardZCode.GDCardsObjects6);
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(1)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Color").getAsNumber() ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
+if (isConditionTrue_0) {
+/* Reuse gdjs.OneCardZCode.GDCardsObjects6 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(6)).setNumber(1);
+}
+}
+}
+
+}
+
+
+{
+
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(1)) == 4 ) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Value").getAsNumber() ) {
         isConditionTrue_0 = true;
         gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
@@ -4958,57 +5015,6 @@ if (isConditionTrue_0) {
 /* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
 {for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
     gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)).setNumber(1);
-}
-}
-}
-
-}
-
-
-{
-
-gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects4, gdjs.OneCardZCode.GDCardsObjects5);
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(1)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Color").getAsNumber() ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
-        ++k;
-    }
-}
-gdjs.OneCardZCode.GDCardsObjects5.length = k;
-if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)).setNumber(1);
-}
-}
-}
-
-}
-
-
-{
-
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Value").getAsNumber() ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
-        ++k;
-    }
-}
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
-if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(6)).setNumber(1);
 }
 }
 }
@@ -5020,22 +5026,22 @@ if (isConditionTrue_0) {
 
 {
 
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Value").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Value").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(6)).setNumber(1);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)).setNumber(1);
 }
 }
 }
@@ -5043,27 +5049,27 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects4});
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects5});
 gdjs.OneCardZCode.eventsList88 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(6)).setNumber(0);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)).setNumber(0);
 }
 }
 }
@@ -5073,7 +5079,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -5081,14 +5087,14 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 if (isConditionTrue_0) {
 
@@ -5101,7 +5107,7 @@ gdjs.OneCardZCode.eventsList86(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -5109,14 +5115,14 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 if (isConditionTrue_0) {
 
@@ -5129,31 +5135,31 @@ gdjs.OneCardZCode.eventsList87(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(6)) == 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)) == 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Playable").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects));
+{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Playable").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects));
 }
 }
 
@@ -5447,51 +5453,51 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects5});
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects6Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects6});
 gdjs.OneCardZCode.eventsList92 = function(runtimeScene) {
 
 };gdjs.OneCardZCode.eventsList93 = function(runtimeScene) {
 
 {
 
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
 
-gdjs.OneCardZCode.forEachObjects5.length = 0;
-gdjs.OneCardZCode.forEachObjects5.push.apply(gdjs.OneCardZCode.forEachObjects5,gdjs.OneCardZCode.GDCardsObjects4);
-gdjs.OneCardZCode.forEachTotalCount5 = gdjs.OneCardZCode.forEachObjects5.length;
-gdjs.OneCardZCode.forEachSortKeys5.length = 0;
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachTotalCount5;++gdjs.OneCardZCode.forEachIndex5) {
-gdjs.OneCardZCode.GDCardsObjects5.length = 0;
+gdjs.OneCardZCode.forEachObjects6.length = 0;
+gdjs.OneCardZCode.forEachObjects6.push.apply(gdjs.OneCardZCode.forEachObjects6,gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.OneCardZCode.forEachTotalCount6 = gdjs.OneCardZCode.forEachObjects6.length;
+gdjs.OneCardZCode.forEachSortKeys6.length = 0;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachTotalCount6;++gdjs.OneCardZCode.forEachIndex6) {
+gdjs.OneCardZCode.GDCardsObjects6.length = 0;
 
 
-gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachObjects5[gdjs.OneCardZCode.forEachIndex5]);
-gdjs.OneCardZCode.forEachSortKeys5.push((( gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects5[0].getZOrder()));
+gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachObjects6[gdjs.OneCardZCode.forEachIndex6]);
+gdjs.OneCardZCode.forEachSortKeys6.push((( gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects6[0].getZOrder()));
 }
-gdjs.OneCardZCode.forEachSorted5.length = 0;
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachTotalCount5;++gdjs.OneCardZCode.forEachIndex5) gdjs.OneCardZCode.forEachSorted5.push(gdjs.OneCardZCode.forEachIndex5);
-gdjs.OneCardZCode.forEachSorted5.sort(function(a, b) { return true ? gdjs.OneCardZCode.forEachSortKeys5[b] - gdjs.OneCardZCode.forEachSortKeys5[a] : gdjs.OneCardZCode.forEachSortKeys5[a] - gdjs.OneCardZCode.forEachSortKeys5[b]; });
-gdjs.OneCardZCode.forEachLimit5 = runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Need").getAsNumber();
-if (gdjs.OneCardZCode.forEachLimit5 >= 0 && gdjs.OneCardZCode.forEachSorted5.length > gdjs.OneCardZCode.forEachLimit5) gdjs.OneCardZCode.forEachSorted5.length = gdjs.OneCardZCode.forEachLimit5;
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachSorted5.length;++gdjs.OneCardZCode.forEachIndex5) {
-gdjs.OneCardZCode.GDCardsObjects5.length = 0;
+gdjs.OneCardZCode.forEachSorted6.length = 0;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachTotalCount6;++gdjs.OneCardZCode.forEachIndex6) gdjs.OneCardZCode.forEachSorted6.push(gdjs.OneCardZCode.forEachIndex6);
+gdjs.OneCardZCode.forEachSorted6.sort(function(a, b) { return true ? gdjs.OneCardZCode.forEachSortKeys6[b] - gdjs.OneCardZCode.forEachSortKeys6[a] : gdjs.OneCardZCode.forEachSortKeys6[a] - gdjs.OneCardZCode.forEachSortKeys6[b]; });
+gdjs.OneCardZCode.forEachLimit6 = runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Need").getAsNumber();
+if (gdjs.OneCardZCode.forEachLimit6 >= 0 && gdjs.OneCardZCode.forEachSorted6.length > gdjs.OneCardZCode.forEachLimit6) gdjs.OneCardZCode.forEachSorted6.length = gdjs.OneCardZCode.forEachLimit6;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachSorted6.length;++gdjs.OneCardZCode.forEachIndex6) {
+gdjs.OneCardZCode.GDCardsObjects6.length = 0;
 
 
-gdjs.OneCardZCode.forEachTemporary5 = gdjs.OneCardZCode.forEachObjects5[gdjs.OneCardZCode.forEachSorted5[gdjs.OneCardZCode.forEachIndex5]];
-gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachTemporary5);
+gdjs.OneCardZCode.forEachTemporary6 = gdjs.OneCardZCode.forEachObjects6[gdjs.OneCardZCode.forEachSorted6[gdjs.OneCardZCode.forEachIndex6]];
+gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachTemporary6);
 let isConditionTrue_0 = false;
 if (true) {
 {gdjs.OneCardZCode.localVariables[0].getFromIndex(0).add(1);
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(11)).setNumber(gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber());
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(11)).setNumber(gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber());
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)).setNumber(runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)).setNumber(runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].setZOrder(20000);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].setZOrder(20000);
 }
 }
 }
@@ -5504,20 +5510,20 @@ if (true) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects6);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == 0 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)) == 0 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects5.length = k;
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("DeckCount").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects));
+{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("DeckCount").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects6Objects));
 }
 }
 
@@ -5606,7 +5612,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 {
 const variables = new gdjs.VariablesContainer();
@@ -5623,14 +5629,14 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == 0 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == 0 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 if (isConditionTrue_0) {
 
@@ -5646,28 +5652,28 @@ gdjs.OneCardZCode.localVariables.pop();
 
 {
 
-gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects5, gdjs.OneCardZCode.GDCardsObjects6);
+gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects6, gdjs.OneCardZCode.GDCardsObjects7);
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(11)) <= runtimeScene.getScene().getVariables().getFromIndex(1).getChild("DrawNext").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(11)) <= runtimeScene.getScene().getVariables().getFromIndex(1).getChild("DrawNext").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects6.length = k;
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(1).getChild("DrawT").getAsNumber() >= (((gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects6[0].getVariables()).getFromIndex(11).getAsNumber() - 1) * 0.12 + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardMoveWaitTime").getAsNumber());
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(1).getChild("DrawT").getAsNumber() >= (((gdjs.OneCardZCode.GDCardsObjects7.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects7[0].getVariables()).getFromIndex(11).getAsNumber() - 1) * 0.12 + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardMoveWaitTime").getAsNumber());
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects6 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(11)).setNumber(0);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects7 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(11)).setNumber(0);
 }
 }
 }
@@ -5679,14 +5685,14 @@ if (isConditionTrue_0) {
 
 {
 
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
 
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.GDCardsObjects4.length;++gdjs.OneCardZCode.forEachIndex5) {
-gdjs.OneCardZCode.GDCardsObjects5.length = 0;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.GDCardsObjects5.length;++gdjs.OneCardZCode.forEachIndex6) {
+gdjs.OneCardZCode.GDCardsObjects6.length = 0;
 
 
-gdjs.OneCardZCode.forEachTemporary5 = gdjs.OneCardZCode.GDCardsObjects4[gdjs.OneCardZCode.forEachIndex5];
-gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachTemporary5);
+gdjs.OneCardZCode.forEachTemporary6 = gdjs.OneCardZCode.GDCardsObjects5[gdjs.OneCardZCode.forEachIndex6];
+gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachTemporary6);
 let isConditionTrue_0 = false;
 if (true) {
 
@@ -5698,25 +5704,25 @@ gdjs.OneCardZCode.eventsList95(runtimeScene);} //Subevents end.
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects5});
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects6Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects6});
 gdjs.OneCardZCode.eventsList97 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects6);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(11)) > 0 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(11)) > 0 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects5.length = k;
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Left").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects));
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Left").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects6Objects));
 }
 }
 
@@ -5802,7 +5808,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -5822,22 +5828,22 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(11)) == runtimeScene.getScene().getVariables().getFromIndex(1).getChild("DrawNext").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(11)) == runtimeScene.getScene().getVariables().getFromIndex(1).getChild("DrawNext").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].getBehavior("Tween").addObjectPositionTween2("Move", runtimeScene.getScene().getVariables().getFromIndex(1).getChild("DrawX").getAsNumber(), runtimeScene.getScene().getVariables().getFromIndex(1).getChild("DrawY").getAsNumber(), runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardMoveWaitTime").getAsNumber(), false);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].getBehavior("Tween").addObjectPositionTween2("Move", runtimeScene.getScene().getVariables().getFromIndex(1).getChild("DrawX").getAsNumber(), runtimeScene.getScene().getVariables().getFromIndex(1).getChild("DrawY").getAsNumber(), runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardMoveWaitTime").getAsNumber(), false);
 }
 }
 {gdjs.evtTools.sound.playSound(runtimeScene, "Assets/Audio/RevealCard2.aac", false, runtimeScene.getGame().getVariables().getFromIndex(0).getChild("VolSound").getAsNumber(), 1);
@@ -5851,7 +5857,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -5863,14 +5869,14 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(11)) > 0 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(11)) > 0 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 if (isConditionTrue_0) {
@@ -6057,12 +6063,12 @@ gdjs.OneCardZCode.eventsList101(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects4});
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects5});
 gdjs.OneCardZCode.eventsList103 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -6074,36 +6080,36 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(6)) == 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)) == 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(5)).setNumber(1);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)).setNumber(1);
 }
 }
 {runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").setNumber(1);
 }
-{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelValue").setNumber(((gdjs.OneCardZCode.GDCardsObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects4[0].getVariables()).getFromIndex(0).getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelValue").setNumber(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(0).getAsNumber());
 }
 {gdjs.evtTools.sound.playSound(runtimeScene, "Assets/Audio/PullCard2.aac", false, runtimeScene.getGame().getVariables().getFromIndex(0).getChild("VolSound").getAsNumber(), 1);
 }
@@ -6114,7 +6120,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -6126,29 +6132,29 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelValue").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelValue").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Same").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects));
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Same").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects));
 }
 }
 
@@ -6270,18 +6276,69 @@ gdjs.OneCardZCode.eventsList103(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects4});
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects5});
 gdjs.OneCardZCode.eventsList105 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects4, gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects5, gdjs.OneCardZCode.GDCardsObjects6);
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(1)) == 4 ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
+if (isConditionTrue_0) {
+/* Reuse gdjs.OneCardZCode.GDCardsObjects6 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(6)).setNumber(1);
+}
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects5, gdjs.OneCardZCode.GDCardsObjects6);
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(1)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Color").getAsNumber() ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
+if (isConditionTrue_0) {
+/* Reuse gdjs.OneCardZCode.GDCardsObjects6 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(6)).setNumber(1);
+}
+}
+}
+
+}
+
+
+{
+
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(1)) == 4 ) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Value").getAsNumber() ) {
         isConditionTrue_0 = true;
         gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
@@ -6292,57 +6349,6 @@ if (isConditionTrue_0) {
 /* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
 {for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
     gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)).setNumber(1);
-}
-}
-}
-
-}
-
-
-{
-
-gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects4, gdjs.OneCardZCode.GDCardsObjects5);
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(1)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Color").getAsNumber() ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
-        ++k;
-    }
-}
-gdjs.OneCardZCode.GDCardsObjects5.length = k;
-if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)).setNumber(1);
-}
-}
-}
-
-}
-
-
-{
-
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Value").getAsNumber() ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
-        ++k;
-    }
-}
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
-if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(6)).setNumber(1);
 }
 }
 }
@@ -6351,6 +6357,50 @@ if (isConditionTrue_0) {
 
 
 };gdjs.OneCardZCode.eventsList106 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects7);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(7)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Hand").getAsNumber() ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(6)) == 1 ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
+}
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CanPick").setNumber(1);
+}
+}
+
+}
+
 
 {
 
@@ -6379,57 +6429,13 @@ gdjs.OneCardZCode.GDCardsObjects6.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(6)) == 1 ) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(5)) > 0 ) {
         isConditionTrue_0 = true;
         gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
         ++k;
     }
 }
 gdjs.OneCardZCode.GDCardsObjects6.length = k;
-}
-}
-if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CanPick").setNumber(1);
-}
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
-        ++k;
-    }
-}
-gdjs.OneCardZCode.GDCardsObjects5.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(7)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Hand").getAsNumber() ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
-        ++k;
-    }
-}
-gdjs.OneCardZCode.GDCardsObjects5.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)) > 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
-        ++k;
-    }
-}
-gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 if (isConditionTrue_0) {
@@ -6526,33 +6532,33 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects6);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects7);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects6.length = k;
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(5)) > runtimeScene.getScene().getVariables().getFromIndex(1).getChild("K").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(5)) > runtimeScene.getScene().getVariables().getFromIndex(1).getChild("K").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects6.length = k;
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects6 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(5)).sub(1);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects7 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(5)).sub(1);
 }
 }
 }
@@ -6562,66 +6568,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects6);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(1).getChild("K").getAsNumber() == 1);
-}
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").getAsNumber() > 0);
-}
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Pending").getAsNumber() == 0);
-}
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
-        ++k;
-    }
-}
-gdjs.OneCardZCode.GDCardsObjects6.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(5)) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
-        ++k;
-    }
-}
-gdjs.OneCardZCode.GDCardsObjects6.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(1)) == 4 ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
-        ++k;
-    }
-}
-gdjs.OneCardZCode.GDCardsObjects6.length = k;
-}
-}
-}
-}
-}
-if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Ok").setNumber(1);
-}
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects6);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects7);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -6637,34 +6584,34 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects6.length = k;
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(5)) == 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(5)) == 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects6.length = k;
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(1)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Color").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(1)) == 4 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects6.length = k;
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
 }
 }
 }
@@ -6680,7 +6627,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects6);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects7);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -6692,34 +6639,39 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
-        ++k;
-    }
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Pending").getAsNumber() == 0);
 }
-gdjs.OneCardZCode.GDCardsObjects6.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(5)) == 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects6.length = k;
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Value").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(5)) == 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects6.length = k;
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(1)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Color").getAsNumber() ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
+}
 }
 }
 }
@@ -6734,7 +6686,61 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects6);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects7);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(1).getChild("K").getAsNumber() == 1);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").getAsNumber() > 0);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(5)) == 1 ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Value").getAsNumber() ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
+}
+}
+}
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Ok").setNumber(1);
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects7);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -6750,25 +6756,25 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects6.length = k;
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
 }
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects6 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(5)).setNumber(0);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects7 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(5)).setNumber(0);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(6)).setNumber(1);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(6)).setNumber(1);
 }
 }
 {runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").setNumber(0);
@@ -6872,7 +6878,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects6);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -6880,46 +6886,46 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects5.length = k;
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(7)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Hand").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(7)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Hand").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects5.length = k;
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)) == 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(6)) == 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects5.length = k;
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
 }
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+/* Reuse gdjs.OneCardZCode.GDCardsObjects6 */
 {runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").add(1);
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)).setNumber(runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").getAsNumber());
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(5)).setNumber(runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").getAsNumber());
 }
 }
-{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelValue").setNumber(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(0).getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelValue").setNumber(((gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects6[0].getVariables()).getFromIndex(0).getAsNumber());
 }
 {gdjs.evtTools.sound.playSound(runtimeScene, "Assets/Audio/PullCard2.aac", false, runtimeScene.getGame().getVariables().getFromIndex(0).getChild("VolSound").getAsNumber(), 1);
 }
@@ -6930,7 +6936,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects6);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -6938,47 +6944,47 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects5.length = k;
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(7)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Hand").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(7)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Hand").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects5.length = k;
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)) > 0 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(5)) > 0 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects5.length = k;
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
 }
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("K").setNumber(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(5).getAsNumber());
+/* Reuse gdjs.OneCardZCode.GDCardsObjects6 */
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("K").setNumber(((gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects6[0].getVariables()).getFromIndex(5).getAsNumber());
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)).setNumber(0);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(5)).setNumber(0);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)).setNumber(1);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(6)).setNumber(1);
 }
 }
 {runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").sub(1);
@@ -7035,13 +7041,13 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.OneCardZCode.asyncCallback11564716 = function (runtimeScene, asyncObjectsList) {
+};gdjs.OneCardZCode.asyncCallback11451372 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").sub(1);
 }
 gdjs.OneCardZCode.localVariables.length = 0;
 }
-gdjs.OneCardZCode.idToCallbackMap.set(11564716, gdjs.OneCardZCode.asyncCallback11564716);
+gdjs.OneCardZCode.idToCallbackMap.set(11451372, gdjs.OneCardZCode.asyncCallback11451372);
 gdjs.OneCardZCode.eventsList111 = function(runtimeScene) {
 
 {
@@ -7051,7 +7057,7 @@ gdjs.OneCardZCode.eventsList111 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardSelectWaitTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback11564716(runtimeScene, asyncObjectsList)), 11564716, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardSelectWaitTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback11451372(runtimeScene, asyncObjectsList)), 11451372, asyncObjectsList);
 }
 }
 
@@ -7059,6 +7065,76 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runt
 
 
 };gdjs.OneCardZCode.eventsList112 = function(runtimeScene) {
+
+{
+
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+
+gdjs.OneCardZCode.forEachObjects6.length = 0;
+gdjs.OneCardZCode.forEachObjects6.push.apply(gdjs.OneCardZCode.forEachObjects6,gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.OneCardZCode.forEachTotalCount6 = gdjs.OneCardZCode.forEachObjects6.length;
+gdjs.OneCardZCode.forEachSortKeys6.length = 0;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachTotalCount6;++gdjs.OneCardZCode.forEachIndex6) {
+gdjs.OneCardZCode.GDCardsObjects6.length = 0;
+
+
+gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachObjects6[gdjs.OneCardZCode.forEachIndex6]);
+gdjs.OneCardZCode.forEachSortKeys6.push((( gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects6[0].getZOrder()));
+}
+gdjs.OneCardZCode.forEachSorted6.length = 0;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachTotalCount6;++gdjs.OneCardZCode.forEachIndex6) gdjs.OneCardZCode.forEachSorted6.push(gdjs.OneCardZCode.forEachIndex6);
+gdjs.OneCardZCode.forEachSorted6.sort(function(a, b) { return false ? gdjs.OneCardZCode.forEachSortKeys6[b] - gdjs.OneCardZCode.forEachSortKeys6[a] : gdjs.OneCardZCode.forEachSortKeys6[a] - gdjs.OneCardZCode.forEachSortKeys6[b]; });
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachSorted6.length;++gdjs.OneCardZCode.forEachIndex6) {
+gdjs.OneCardZCode.GDCardsObjects6.length = 0;
+
+
+gdjs.OneCardZCode.forEachTemporary6 = gdjs.OneCardZCode.forEachObjects6[gdjs.OneCardZCode.forEachSorted6[gdjs.OneCardZCode.forEachIndex6]];
+gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachTemporary6);
+let isConditionTrue_0 = false;
+if (true) {
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(8)).setNumber(1);
+}
+}
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").add(1);
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].getBehavior("Tween").addObjectPositionTween2("Move", (gdjs.OneCardZCode.GDCardsObjects6[i].getPointX("")), gdjs.evtTools.common.trunc(gdjs.evtTools.camera.getCameraBorderBottom(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(1).getChild("MarginY").getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() / 2 - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() / 4), runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardSelectWaitTime").getAsNumber(), false);
+}
+}
+
+{ //Subevents: 
+gdjs.OneCardZCode.eventsList111(runtimeScene);} //Subevents end.
+}
+}
+
+}
+
+
+};gdjs.OneCardZCode.asyncCallback12374004 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").sub(1);
+}
+gdjs.OneCardZCode.localVariables.length = 0;
+}
+gdjs.OneCardZCode.idToCallbackMap.set(12374004, gdjs.OneCardZCode.asyncCallback12374004);
+gdjs.OneCardZCode.eventsList113 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardSelectWaitTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback12374004(runtimeScene, asyncObjectsList)), 12374004, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.OneCardZCode.eventsList114 = function(runtimeScene) {
 
 {
 
@@ -7087,83 +7163,13 @@ gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachTemporary5);
 let isConditionTrue_0 = false;
 if (true) {
 {for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(8)).setNumber(1);
+    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(8)).setNumber(0);
 }
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").add(1);
 }
 {for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].getBehavior("Tween").addObjectPositionTween2("Move", (gdjs.OneCardZCode.GDCardsObjects5[i].getPointX("")), gdjs.evtTools.common.trunc(gdjs.evtTools.camera.getCameraBorderBottom(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(1).getChild("MarginY").getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() / 2 - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() / 4), runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardSelectWaitTime").getAsNumber(), false);
-}
-}
-
-{ //Subevents: 
-gdjs.OneCardZCode.eventsList111(runtimeScene);} //Subevents end.
-}
-}
-
-}
-
-
-};gdjs.OneCardZCode.asyncCallback11563924 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").sub(1);
-}
-gdjs.OneCardZCode.localVariables.length = 0;
-}
-gdjs.OneCardZCode.idToCallbackMap.set(11563924, gdjs.OneCardZCode.asyncCallback11563924);
-gdjs.OneCardZCode.eventsList113 = function(runtimeScene) {
-
-{
-
-
-{
-{
-const asyncObjectsList = new gdjs.LongLivedObjectsList();
-asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardSelectWaitTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback11563924(runtimeScene, asyncObjectsList)), 11563924, asyncObjectsList);
-}
-}
-
-}
-
-
-};gdjs.OneCardZCode.eventsList114 = function(runtimeScene) {
-
-{
-
-/* Reuse gdjs.OneCardZCode.GDCardsObjects3 */
-
-gdjs.OneCardZCode.forEachObjects4.length = 0;
-gdjs.OneCardZCode.forEachObjects4.push.apply(gdjs.OneCardZCode.forEachObjects4,gdjs.OneCardZCode.GDCardsObjects3);
-gdjs.OneCardZCode.forEachTotalCount4 = gdjs.OneCardZCode.forEachObjects4.length;
-gdjs.OneCardZCode.forEachSortKeys4.length = 0;
-for (gdjs.OneCardZCode.forEachIndex4 = 0;gdjs.OneCardZCode.forEachIndex4 < gdjs.OneCardZCode.forEachTotalCount4;++gdjs.OneCardZCode.forEachIndex4) {
-gdjs.OneCardZCode.GDCardsObjects4.length = 0;
-
-
-gdjs.OneCardZCode.GDCardsObjects4.push(gdjs.OneCardZCode.forEachObjects4[gdjs.OneCardZCode.forEachIndex4]);
-gdjs.OneCardZCode.forEachSortKeys4.push((( gdjs.OneCardZCode.GDCardsObjects4.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects4[0].getZOrder()));
-}
-gdjs.OneCardZCode.forEachSorted4.length = 0;
-for (gdjs.OneCardZCode.forEachIndex4 = 0;gdjs.OneCardZCode.forEachIndex4 < gdjs.OneCardZCode.forEachTotalCount4;++gdjs.OneCardZCode.forEachIndex4) gdjs.OneCardZCode.forEachSorted4.push(gdjs.OneCardZCode.forEachIndex4);
-gdjs.OneCardZCode.forEachSorted4.sort(function(a, b) { return false ? gdjs.OneCardZCode.forEachSortKeys4[b] - gdjs.OneCardZCode.forEachSortKeys4[a] : gdjs.OneCardZCode.forEachSortKeys4[a] - gdjs.OneCardZCode.forEachSortKeys4[b]; });
-for (gdjs.OneCardZCode.forEachIndex4 = 0;gdjs.OneCardZCode.forEachIndex4 < gdjs.OneCardZCode.forEachSorted4.length;++gdjs.OneCardZCode.forEachIndex4) {
-gdjs.OneCardZCode.GDCardsObjects4.length = 0;
-
-
-gdjs.OneCardZCode.forEachTemporary4 = gdjs.OneCardZCode.forEachObjects4[gdjs.OneCardZCode.forEachSorted4[gdjs.OneCardZCode.forEachIndex4]];
-gdjs.OneCardZCode.GDCardsObjects4.push(gdjs.OneCardZCode.forEachTemporary4);
-let isConditionTrue_0 = false;
-if (true) {
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(8)).setNumber(0);
-}
-}
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").add(1);
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].getBehavior("Tween").addObjectPositionTween2("Move", (gdjs.OneCardZCode.GDCardsObjects4[i].getPointX("")), gdjs.evtTools.common.trunc(gdjs.evtTools.camera.getCameraBorderBottom(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(1).getChild("MarginY").getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() / 2), runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardSelectWaitTime").getAsNumber(), false);
+    gdjs.OneCardZCode.GDCardsObjects5[i].getBehavior("Tween").addObjectPositionTween2("Move", (gdjs.OneCardZCode.GDCardsObjects5[i].getPointX("")), gdjs.evtTools.common.trunc(gdjs.evtTools.camera.getCameraBorderBottom(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(1).getChild("MarginY").getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() / 2), runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardSelectWaitTime").getAsNumber(), false);
 }
 }
 
@@ -7179,25 +7185,25 @@ gdjs.OneCardZCode.eventsList113(runtimeScene);} //Subevents end.
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(6)).setNumber(0);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)).setNumber(0);
 }
 }
-{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("HandCount").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects));
+{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("HandCount").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects));
 }
 {runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Hand").setNumber(Math.min(runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Hand").getAsNumber(), Math.max(runtimeScene.getScene().getVariables().getFromIndex(3).getChild("HandCount").getAsNumber() - 1, 0)));
 }
@@ -7208,7 +7214,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -7220,14 +7226,14 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 if (isConditionTrue_0) {
@@ -7241,7 +7247,7 @@ gdjs.OneCardZCode.eventsList105(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -7253,31 +7259,31 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Value").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Value").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(6)).setNumber(1);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)).setNumber(1);
 }
 }
 }
@@ -7287,7 +7293,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -7295,41 +7301,41 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(5)) == 0 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)) == 0 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelValue").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelValue").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(6)).setNumber(1);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)).setNumber(1);
 }
 }
 }
@@ -7355,6 +7361,51 @@ gdjs.OneCardZCode.eventsList110(runtimeScene);} //End of subevents
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)) > 0 ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(8)) == 0 ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
+}
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.OneCardZCode.eventsList112(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
 
 let isConditionTrue_0 = false;
@@ -7370,7 +7421,7 @@ gdjs.OneCardZCode.GDCardsObjects4.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(5)) > 0 ) {
+    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(5)) == 0 ) {
         isConditionTrue_0 = true;
         gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
         ++k;
@@ -7380,58 +7431,13 @@ gdjs.OneCardZCode.GDCardsObjects4.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(8)) == 0 ) {
+    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(8)) == 1 ) {
         isConditionTrue_0 = true;
         gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
         ++k;
     }
 }
 gdjs.OneCardZCode.GDCardsObjects4.length = k;
-}
-}
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.OneCardZCode.eventsList112(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects3);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects3.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects3[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects3[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects3[k] = gdjs.OneCardZCode.GDCardsObjects3[i];
-        ++k;
-    }
-}
-gdjs.OneCardZCode.GDCardsObjects3.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects3.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects3[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects3[i].getVariables().getFromIndex(5)) == 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects3[k] = gdjs.OneCardZCode.GDCardsObjects3[i];
-        ++k;
-    }
-}
-gdjs.OneCardZCode.GDCardsObjects3.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects3.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects3[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects3[i].getVariables().getFromIndex(8)) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects3[k] = gdjs.OneCardZCode.GDCardsObjects3[i];
-        ++k;
-    }
-}
-gdjs.OneCardZCode.GDCardsObjects3.length = k;
 }
 }
 if (isConditionTrue_0) {
@@ -7466,25 +7472,25 @@ gdjs.OneCardZCode.eventsList115(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects4});
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects5});
 gdjs.OneCardZCode.eventsList117 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HandN").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects));
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HandN").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects));
 }
 }
 
@@ -7686,13 +7692,13 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.OneCardZCode.asyncCallback22575220 = function (runtimeScene, asyncObjectsList) {
+};gdjs.OneCardZCode.asyncCallback22792284 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").sub(1);
 }
 gdjs.OneCardZCode.localVariables.length = 0;
 }
-gdjs.OneCardZCode.idToCallbackMap.set(22575220, gdjs.OneCardZCode.asyncCallback22575220);
+gdjs.OneCardZCode.idToCallbackMap.set(22792284, gdjs.OneCardZCode.asyncCallback22792284);
 gdjs.OneCardZCode.eventsList122 = function(runtimeScene) {
 
 {
@@ -7702,7 +7708,7 @@ gdjs.OneCardZCode.eventsList122 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback22575220(runtimeScene, asyncObjectsList)), 22575220, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback22792284(runtimeScene, asyncObjectsList)), 22792284, asyncObjectsList);
 }
 }
 
@@ -7710,6 +7716,139 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runt
 
 
 };gdjs.OneCardZCode.eventsList123 = function(runtimeScene) {
+
+{
+
+/* Reuse gdjs.OneCardZCode.GDCardsObjects6 */
+
+for (gdjs.OneCardZCode.forEachIndex7 = 0;gdjs.OneCardZCode.forEachIndex7 < gdjs.OneCardZCode.GDCardsObjects6.length;++gdjs.OneCardZCode.forEachIndex7) {
+gdjs.OneCardZCode.GDCardsObjects7.length = 0;
+
+
+gdjs.OneCardZCode.forEachTemporary7 = gdjs.OneCardZCode.GDCardsObjects6[gdjs.OneCardZCode.forEachIndex7];
+gdjs.OneCardZCode.GDCardsObjects7.push(gdjs.OneCardZCode.forEachTemporary7);
+let isConditionTrue_0 = false;
+if (true) {
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").add(1);
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].setZOrder(2000 + gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(5).getAsNumber());
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].getBehavior("Tween").addObjectPositionTween2("Move", gdjs.evtTools.common.trunc(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("FanStart").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("FanGap").getAsNumber() * (gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(5).getAsNumber() - 1)), gdjs.evtTools.common.trunc(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber()), runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber(), false);
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].getBehavior("Tween").addObjectWidthTween2("Flip", runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() * 2, runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber(), false);
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].getBehavior("Tween").addObjectHeightTween2("FlipH", runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() * 2, runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber(), false);
+}
+}
+
+{ //Subevents: 
+gdjs.OneCardZCode.eventsList122(runtimeScene);} //Subevents end.
+}
+}
+
+}
+
+
+};gdjs.OneCardZCode.asyncCallback19389708 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").sub(1);
+}
+gdjs.OneCardZCode.localVariables.length = 0;
+}
+gdjs.OneCardZCode.idToCallbackMap.set(19389708, gdjs.OneCardZCode.asyncCallback19389708);
+gdjs.OneCardZCode.eventsList124 = function(runtimeScene, asyncObjectsList) {
+
+{
+
+
+{
+const parentAsyncObjectsList = asyncObjectsList;
+{
+const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
+asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber() / 2), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback19389708(runtimeScene, asyncObjectsList)), 19389708, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.OneCardZCode.eventsList125 = function(runtimeScene, asyncObjectsList) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(asyncObjectsList.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects9);
+
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects9.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects9[i].getBehavior("Animation").setAnimationName("FrontFace");
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects9.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects9[i].getBehavior("Animation").pauseAnimation();
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects9.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects9[i].setAnimationFrame(gdjs.OneCardZCode.GDCardsObjects9[i].getVariables().getFromIndex(0).getAsNumber() + gdjs.OneCardZCode.GDCardsObjects9[i].getVariables().getFromIndex(1).getAsNumber() * 16);
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects9.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects9[i].getBehavior("Tween").addObjectWidthTween2("Flip", runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() * 2, runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber() / 2, false);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+
+{ //Subevents
+gdjs.OneCardZCode.eventsList124(runtimeScene, asyncObjectsList);} //End of subevents
+}
+
+}
+
+
+};gdjs.OneCardZCode.asyncCallback11594700 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
+
+{ //Subevents
+gdjs.OneCardZCode.eventsList125(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.OneCardZCode.localVariables.length = 0;
+}
+gdjs.OneCardZCode.idToCallbackMap.set(11594700, gdjs.OneCardZCode.asyncCallback11594700);
+gdjs.OneCardZCode.eventsList126 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
+for (const obj of gdjs.OneCardZCode.GDCardsObjects6) asyncObjectsList.addObject("Cards", obj);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber() / 2), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback11594700(runtimeScene, asyncObjectsList)), 11594700, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.OneCardZCode.eventsList127 = function(runtimeScene) {
 
 {
 
@@ -7734,144 +7873,11 @@ if (true) {
 }
 }
 {for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].getBehavior("Tween").addObjectWidthTween2("Flip", runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() * 2, runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber(), false);
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
     gdjs.OneCardZCode.GDCardsObjects6[i].getBehavior("Tween").addObjectHeightTween2("FlipH", runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() * 2, runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber(), false);
 }
 }
-
-{ //Subevents: 
-gdjs.OneCardZCode.eventsList122(runtimeScene);} //Subevents end.
-}
-}
-
-}
-
-
-};gdjs.OneCardZCode.asyncCallback22551116 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").sub(1);
-}
-gdjs.OneCardZCode.localVariables.length = 0;
-}
-gdjs.OneCardZCode.idToCallbackMap.set(22551116, gdjs.OneCardZCode.asyncCallback22551116);
-gdjs.OneCardZCode.eventsList124 = function(runtimeScene, asyncObjectsList) {
-
-{
-
-
-{
-const parentAsyncObjectsList = asyncObjectsList;
-{
-const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber() / 2), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback22551116(runtimeScene, asyncObjectsList)), 22551116, asyncObjectsList);
-}
-}
-
-}
-
-
-};gdjs.OneCardZCode.eventsList125 = function(runtimeScene, asyncObjectsList) {
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-gdjs.copyArray(asyncObjectsList.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects8);
-
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects8.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects8[i].getBehavior("Animation").setAnimationName("FrontFace");
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects8.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects8[i].getBehavior("Animation").pauseAnimation();
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects8.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects8[i].setAnimationFrame(gdjs.OneCardZCode.GDCardsObjects8[i].getVariables().getFromIndex(0).getAsNumber() + gdjs.OneCardZCode.GDCardsObjects8[i].getVariables().getFromIndex(1).getAsNumber() * 16);
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects8.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects8[i].getBehavior("Tween").addObjectWidthTween2("Flip", runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() * 2, runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber() / 2, false);
-}
-}
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-
-{ //Subevents
-gdjs.OneCardZCode.eventsList124(runtimeScene, asyncObjectsList);} //End of subevents
-}
-
-}
-
-
-};gdjs.OneCardZCode.asyncCallback22557876 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-
-{ //Subevents
-gdjs.OneCardZCode.eventsList125(runtimeScene, asyncObjectsList);} //End of subevents
-gdjs.OneCardZCode.localVariables.length = 0;
-}
-gdjs.OneCardZCode.idToCallbackMap.set(22557876, gdjs.OneCardZCode.asyncCallback22557876);
-gdjs.OneCardZCode.eventsList126 = function(runtimeScene) {
-
-{
-
-
-{
-{
-const asyncObjectsList = new gdjs.LongLivedObjectsList();
-asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-for (const obj of gdjs.OneCardZCode.GDCardsObjects5) asyncObjectsList.addObject("Cards", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber() / 2), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback22557876(runtimeScene, asyncObjectsList)), 22557876, asyncObjectsList);
-}
-}
-
-}
-
-
-};gdjs.OneCardZCode.eventsList127 = function(runtimeScene) {
-
-{
-
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.GDCardsObjects4.length;++gdjs.OneCardZCode.forEachIndex5) {
-gdjs.OneCardZCode.GDCardsObjects5.length = 0;
-
-
-gdjs.OneCardZCode.forEachTemporary5 = gdjs.OneCardZCode.GDCardsObjects4[gdjs.OneCardZCode.forEachIndex5];
-gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachTemporary5);
-let isConditionTrue_0 = false;
-if (true) {
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").add(1);
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].setZOrder(2000 + gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5).getAsNumber());
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].getBehavior("Tween").addObjectPositionTween2("Move", gdjs.evtTools.common.trunc(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("FanStart").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("FanGap").getAsNumber() * (gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5).getAsNumber() - 1)), gdjs.evtTools.common.trunc(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber()), runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber(), false);
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].getBehavior("Tween").addObjectHeightTween2("FlipH", runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() * 2, runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber(), false);
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].getBehavior("Tween").addObjectWidthTween2("Flip", 0, runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber() / 2, false);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].getBehavior("Tween").addObjectWidthTween2("Flip", 0, runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber() / 2, false);
 }
 }
 
@@ -7887,11 +7893,50 @@ gdjs.OneCardZCode.eventsList126(runtimeScene);} //Subevents end.
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects6);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() == 0);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(5)) > 0 ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
+}
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.OneCardZCode.eventsList123(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() > 0);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -7913,45 +7958,6 @@ for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
     }
 }
 gdjs.OneCardZCode.GDCardsObjects5.length = k;
-}
-}
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.OneCardZCode.eventsList123(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() > 0);
-}
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
-        ++k;
-    }
-}
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(5)) > 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
-        ++k;
-    }
-}
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
 }
 }
 if (isConditionTrue_0) {
@@ -8058,14 +8064,14 @@ gdjs.OneCardZCode.eventsList129(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects4});
-gdjs.OneCardZCode.asyncCallback25651452 = function (runtimeScene, asyncObjectsList) {
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects5});
+gdjs.OneCardZCode.asyncCallback12174324 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").sub(1);
 }
 gdjs.OneCardZCode.localVariables.length = 0;
 }
-gdjs.OneCardZCode.idToCallbackMap.set(25651452, gdjs.OneCardZCode.asyncCallback25651452);
+gdjs.OneCardZCode.idToCallbackMap.set(12174324, gdjs.OneCardZCode.asyncCallback12174324);
 gdjs.OneCardZCode.eventsList131 = function(runtimeScene) {
 
 {
@@ -8075,20 +8081,20 @@ gdjs.OneCardZCode.eventsList131 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback25651452(runtimeScene, asyncObjectsList)), 25651452, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback12174324(runtimeScene, asyncObjectsList)), 12174324, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.OneCardZCode.asyncCallback23410220 = function (runtimeScene, asyncObjectsList) {
+};gdjs.OneCardZCode.asyncCallback16587812 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
 {gdjs.evtTools.sound.playSound(runtimeScene, "Assets/Audio/PutCard1.aac", false, runtimeScene.getGame().getVariables().getFromIndex(0).getChild("VolSound").getAsNumber(), 1);
 }
 gdjs.OneCardZCode.localVariables.length = 0;
 }
-gdjs.OneCardZCode.idToCallbackMap.set(23410220, gdjs.OneCardZCode.asyncCallback23410220);
+gdjs.OneCardZCode.idToCallbackMap.set(16587812, gdjs.OneCardZCode.asyncCallback16587812);
 gdjs.OneCardZCode.eventsList132 = function(runtimeScene) {
 
 {
@@ -8098,7 +8104,7 @@ gdjs.OneCardZCode.eventsList132 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber() / 2), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback23410220(runtimeScene, asyncObjectsList)), 23410220, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber() / 2), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback16587812(runtimeScene, asyncObjectsList)), 16587812, asyncObjectsList);
 }
 }
 
@@ -8109,49 +8115,49 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runt
 
 {
 
-gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects4, gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects5, gdjs.OneCardZCode.GDCardsObjects6);
 
 
-for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.GDCardsObjects5.length;++gdjs.OneCardZCode.forEachIndex6) {
-gdjs.OneCardZCode.GDCardsObjects6.length = 0;
+for (gdjs.OneCardZCode.forEachIndex7 = 0;gdjs.OneCardZCode.forEachIndex7 < gdjs.OneCardZCode.GDCardsObjects6.length;++gdjs.OneCardZCode.forEachIndex7) {
+gdjs.OneCardZCode.GDCardsObjects7.length = 0;
 
 
-gdjs.OneCardZCode.forEachTemporary6 = gdjs.OneCardZCode.GDCardsObjects5[gdjs.OneCardZCode.forEachIndex6];
-gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachTemporary6);
+gdjs.OneCardZCode.forEachTemporary7 = gdjs.OneCardZCode.GDCardsObjects6[gdjs.OneCardZCode.forEachIndex7];
+gdjs.OneCardZCode.GDCardsObjects7.push(gdjs.OneCardZCode.forEachTemporary7);
 let isConditionTrue_0 = false;
 if (true) {
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").add(1);
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].setZOrder(1000 + runtimeScene.getScene().getVariables().getFromIndex(3).getChild("PileZ").getAsNumber() + gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(5).getAsNumber());
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].setZOrder(1000 + runtimeScene.getScene().getVariables().getFromIndex(3).getChild("PileZ").getAsNumber() + gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(5).getAsNumber());
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)).setNumber(9);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(2)).setNumber(9);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(5)).setNumber(0);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(5)).setNumber(0);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(6)).setNumber(0);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(6)).setNumber(0);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(8)).setNumber(0);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(8)).setNumber(0);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].getBehavior("Tween").addObjectPositionTween2("Move", gdjs.evtTools.common.trunc(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CamCenterX").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() * 2), gdjs.evtTools.common.trunc(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CamCenterY").getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() / 2), runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber(), false);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].getBehavior("Tween").addObjectPositionTween2("Move", gdjs.evtTools.common.trunc(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CamCenterX").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() * 2), gdjs.evtTools.common.trunc(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CamCenterY").getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() / 2), runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber(), false);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].getBehavior("Tween").addObjectWidthTween2("Flip", runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber(), runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber(), false);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].getBehavior("Tween").addObjectWidthTween2("Flip", runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber(), runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber(), false);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].getBehavior("Tween").addObjectHeightTween2("FlipH", runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber(), runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber(), false);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].getBehavior("Tween").addObjectHeightTween2("FlipH", runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber(), runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber(), false);
 }
 }
 
@@ -8180,32 +8186,32 @@ gdjs.OneCardZCode.eventsList132(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(5)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Value").setNumber(((gdjs.OneCardZCode.GDCardsObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects4[0].getVariables()).getFromIndex(0).getAsNumber());
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Value").setNumber(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(0).getAsNumber());
 }
 }
 
@@ -8214,43 +8220,43 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(5)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(1)) < 4 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(1)) < 4 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Color").setNumber(((gdjs.OneCardZCode.GDCardsObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects4[0].getVariables()).getFromIndex(1).getAsNumber());
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Color").setNumber(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(1).getAsNumber());
 }
 }
 
@@ -8259,38 +8265,38 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(5)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(1)) == 4 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(1)) == 4 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 if (isConditionTrue_0) {
@@ -8303,38 +8309,38 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(5)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(0)) == 12 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(0)) == 12 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 if (isConditionTrue_0) {
@@ -8361,20 +8367,20 @@ let isConditionTrue_0 = false;
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HN").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects));
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HN").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects));
 }
 }
 
@@ -8533,28 +8539,28 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(5)) > 0 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)) > 0 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 if (isConditionTrue_0) {
 
@@ -8613,25 +8619,25 @@ gdjs.OneCardZCode.eventsList134(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects4});
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects5});
 gdjs.OneCardZCode.eventsList136 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("EndHand").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects));
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("EndHand").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects));
 }
 }
 
@@ -8828,31 +8834,31 @@ gdjs.OneCardZCode.eventsList138(runtimeScene);} //End of subevents
 
 {
 
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
 
-gdjs.OneCardZCode.forEachObjects5.length = 0;
-gdjs.OneCardZCode.forEachObjects5.push.apply(gdjs.OneCardZCode.forEachObjects5,gdjs.OneCardZCode.GDCardsObjects4);
-gdjs.OneCardZCode.forEachTotalCount5 = gdjs.OneCardZCode.forEachObjects5.length;
-gdjs.OneCardZCode.forEachSortKeys5.length = 0;
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachTotalCount5;++gdjs.OneCardZCode.forEachIndex5) {
-gdjs.OneCardZCode.GDCardsObjects5.length = 0;
+gdjs.OneCardZCode.forEachObjects6.length = 0;
+gdjs.OneCardZCode.forEachObjects6.push.apply(gdjs.OneCardZCode.forEachObjects6,gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.OneCardZCode.forEachTotalCount6 = gdjs.OneCardZCode.forEachObjects6.length;
+gdjs.OneCardZCode.forEachSortKeys6.length = 0;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachTotalCount6;++gdjs.OneCardZCode.forEachIndex6) {
+gdjs.OneCardZCode.GDCardsObjects6.length = 0;
 
 
-gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachObjects5[gdjs.OneCardZCode.forEachIndex5]);
-gdjs.OneCardZCode.forEachSortKeys5.push(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(7).getAsNumber());
+gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachObjects6[gdjs.OneCardZCode.forEachIndex6]);
+gdjs.OneCardZCode.forEachSortKeys6.push(((gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects6[0].getVariables()).getFromIndex(7).getAsNumber());
 }
-gdjs.OneCardZCode.forEachSorted5.length = 0;
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachTotalCount5;++gdjs.OneCardZCode.forEachIndex5) gdjs.OneCardZCode.forEachSorted5.push(gdjs.OneCardZCode.forEachIndex5);
-gdjs.OneCardZCode.forEachSorted5.sort(function(a, b) { return false ? gdjs.OneCardZCode.forEachSortKeys5[b] - gdjs.OneCardZCode.forEachSortKeys5[a] : gdjs.OneCardZCode.forEachSortKeys5[a] - gdjs.OneCardZCode.forEachSortKeys5[b]; });
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachSorted5.length;++gdjs.OneCardZCode.forEachIndex5) {
-gdjs.OneCardZCode.GDCardsObjects5.length = 0;
+gdjs.OneCardZCode.forEachSorted6.length = 0;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachTotalCount6;++gdjs.OneCardZCode.forEachIndex6) gdjs.OneCardZCode.forEachSorted6.push(gdjs.OneCardZCode.forEachIndex6);
+gdjs.OneCardZCode.forEachSorted6.sort(function(a, b) { return false ? gdjs.OneCardZCode.forEachSortKeys6[b] - gdjs.OneCardZCode.forEachSortKeys6[a] : gdjs.OneCardZCode.forEachSortKeys6[a] - gdjs.OneCardZCode.forEachSortKeys6[b]; });
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachSorted6.length;++gdjs.OneCardZCode.forEachIndex6) {
+gdjs.OneCardZCode.GDCardsObjects6.length = 0;
 
 
-gdjs.OneCardZCode.forEachTemporary5 = gdjs.OneCardZCode.forEachObjects5[gdjs.OneCardZCode.forEachSorted5[gdjs.OneCardZCode.forEachIndex5]];
-gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachTemporary5);
+gdjs.OneCardZCode.forEachTemporary6 = gdjs.OneCardZCode.forEachObjects6[gdjs.OneCardZCode.forEachSorted6[gdjs.OneCardZCode.forEachIndex6]];
+gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachTemporary6);
 let isConditionTrue_0 = false;
 if (true) {
-{runtimeScene.getScene().getVariables().getFromIndex(9).getChild(gdjs.evtTools.common.toString(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(0).getAsNumber())).add(1);
+{runtimeScene.getScene().getVariables().getFromIndex(9).getChild(gdjs.evtTools.common.toString(((gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects6[0].getVariables()).getFromIndex(0).getAsNumber())).add(1);
 }
 }
 }
@@ -8866,41 +8872,41 @@ if (true) {
 
 {
 
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
 
-gdjs.OneCardZCode.forEachObjects5.length = 0;
-gdjs.OneCardZCode.forEachObjects5.push.apply(gdjs.OneCardZCode.forEachObjects5,gdjs.OneCardZCode.GDCardsObjects4);
-gdjs.OneCardZCode.forEachTotalCount5 = gdjs.OneCardZCode.forEachObjects5.length;
-gdjs.OneCardZCode.forEachSortKeys5.length = 0;
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachTotalCount5;++gdjs.OneCardZCode.forEachIndex5) {
-gdjs.OneCardZCode.GDCardsObjects5.length = 0;
+gdjs.OneCardZCode.forEachObjects6.length = 0;
+gdjs.OneCardZCode.forEachObjects6.push.apply(gdjs.OneCardZCode.forEachObjects6,gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.OneCardZCode.forEachTotalCount6 = gdjs.OneCardZCode.forEachObjects6.length;
+gdjs.OneCardZCode.forEachSortKeys6.length = 0;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachTotalCount6;++gdjs.OneCardZCode.forEachIndex6) {
+gdjs.OneCardZCode.GDCardsObjects6.length = 0;
 
 
-gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachObjects5[gdjs.OneCardZCode.forEachIndex5]);
-gdjs.OneCardZCode.forEachSortKeys5.push(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(10).getAsNumber());
+gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachObjects6[gdjs.OneCardZCode.forEachIndex6]);
+gdjs.OneCardZCode.forEachSortKeys6.push(((gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects6[0].getVariables()).getFromIndex(10).getAsNumber());
 }
-gdjs.OneCardZCode.forEachSorted5.length = 0;
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachTotalCount5;++gdjs.OneCardZCode.forEachIndex5) gdjs.OneCardZCode.forEachSorted5.push(gdjs.OneCardZCode.forEachIndex5);
-gdjs.OneCardZCode.forEachSorted5.sort(function(a, b) { return true ? gdjs.OneCardZCode.forEachSortKeys5[b] - gdjs.OneCardZCode.forEachSortKeys5[a] : gdjs.OneCardZCode.forEachSortKeys5[a] - gdjs.OneCardZCode.forEachSortKeys5[b]; });
-gdjs.OneCardZCode.forEachLimit5 = 1;
-if (gdjs.OneCardZCode.forEachLimit5 >= 0 && gdjs.OneCardZCode.forEachSorted5.length > gdjs.OneCardZCode.forEachLimit5) gdjs.OneCardZCode.forEachSorted5.length = gdjs.OneCardZCode.forEachLimit5;
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachSorted5.length;++gdjs.OneCardZCode.forEachIndex5) {
-gdjs.OneCardZCode.GDCardsObjects5.length = 0;
+gdjs.OneCardZCode.forEachSorted6.length = 0;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachTotalCount6;++gdjs.OneCardZCode.forEachIndex6) gdjs.OneCardZCode.forEachSorted6.push(gdjs.OneCardZCode.forEachIndex6);
+gdjs.OneCardZCode.forEachSorted6.sort(function(a, b) { return true ? gdjs.OneCardZCode.forEachSortKeys6[b] - gdjs.OneCardZCode.forEachSortKeys6[a] : gdjs.OneCardZCode.forEachSortKeys6[a] - gdjs.OneCardZCode.forEachSortKeys6[b]; });
+gdjs.OneCardZCode.forEachLimit6 = 1;
+if (gdjs.OneCardZCode.forEachLimit6 >= 0 && gdjs.OneCardZCode.forEachSorted6.length > gdjs.OneCardZCode.forEachLimit6) gdjs.OneCardZCode.forEachSorted6.length = gdjs.OneCardZCode.forEachLimit6;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachSorted6.length;++gdjs.OneCardZCode.forEachIndex6) {
+gdjs.OneCardZCode.GDCardsObjects6.length = 0;
 
 
-gdjs.OneCardZCode.forEachTemporary5 = gdjs.OneCardZCode.forEachObjects5[gdjs.OneCardZCode.forEachSorted5[gdjs.OneCardZCode.forEachIndex5]];
-gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachTemporary5);
+gdjs.OneCardZCode.forEachTemporary6 = gdjs.OneCardZCode.forEachObjects6[gdjs.OneCardZCode.forEachSorted6[gdjs.OneCardZCode.forEachIndex6]];
+gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachTemporary6);
 let isConditionTrue_0 = false;
 if (true) {
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)).setNumber(1);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(5)).setNumber(1);
 }
 }
 {runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").setNumber(1);
 }
-{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("AIValue").setNumber(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(0).getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("AIValue").setNumber(((gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects6[0].getVariables()).getFromIndex(0).getAsNumber());
 }
-{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("AICount").setNumber(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(9).getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("AICount").setNumber(((gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects6[0].getVariables()).getFromIndex(9).getAsNumber());
 }
 }
 }
@@ -8914,36 +8920,36 @@ if (true) {
 
 {
 
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
 
-gdjs.OneCardZCode.forEachObjects5.length = 0;
-gdjs.OneCardZCode.forEachObjects5.push.apply(gdjs.OneCardZCode.forEachObjects5,gdjs.OneCardZCode.GDCardsObjects4);
-gdjs.OneCardZCode.forEachTotalCount5 = gdjs.OneCardZCode.forEachObjects5.length;
-gdjs.OneCardZCode.forEachSortKeys5.length = 0;
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachTotalCount5;++gdjs.OneCardZCode.forEachIndex5) {
-gdjs.OneCardZCode.GDCardsObjects5.length = 0;
+gdjs.OneCardZCode.forEachObjects6.length = 0;
+gdjs.OneCardZCode.forEachObjects6.push.apply(gdjs.OneCardZCode.forEachObjects6,gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.OneCardZCode.forEachTotalCount6 = gdjs.OneCardZCode.forEachObjects6.length;
+gdjs.OneCardZCode.forEachSortKeys6.length = 0;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachTotalCount6;++gdjs.OneCardZCode.forEachIndex6) {
+gdjs.OneCardZCode.GDCardsObjects6.length = 0;
 
 
-gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachObjects5[gdjs.OneCardZCode.forEachIndex5]);
-gdjs.OneCardZCode.forEachSortKeys5.push(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(1).getAsNumber());
+gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachObjects6[gdjs.OneCardZCode.forEachIndex6]);
+gdjs.OneCardZCode.forEachSortKeys6.push(((gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects6[0].getVariables()).getFromIndex(1).getAsNumber());
 }
-gdjs.OneCardZCode.forEachSorted5.length = 0;
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachTotalCount5;++gdjs.OneCardZCode.forEachIndex5) gdjs.OneCardZCode.forEachSorted5.push(gdjs.OneCardZCode.forEachIndex5);
-gdjs.OneCardZCode.forEachSorted5.sort(function(a, b) { return true ? gdjs.OneCardZCode.forEachSortKeys5[b] - gdjs.OneCardZCode.forEachSortKeys5[a] : gdjs.OneCardZCode.forEachSortKeys5[a] - gdjs.OneCardZCode.forEachSortKeys5[b]; });
-gdjs.OneCardZCode.forEachLimit5 = runtimeScene.getScene().getVariables().getFromIndex(3).getChild("AICount").getAsNumber() - 1;
-if (gdjs.OneCardZCode.forEachLimit5 >= 0 && gdjs.OneCardZCode.forEachSorted5.length > gdjs.OneCardZCode.forEachLimit5) gdjs.OneCardZCode.forEachSorted5.length = gdjs.OneCardZCode.forEachLimit5;
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachSorted5.length;++gdjs.OneCardZCode.forEachIndex5) {
-gdjs.OneCardZCode.GDCardsObjects5.length = 0;
+gdjs.OneCardZCode.forEachSorted6.length = 0;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachTotalCount6;++gdjs.OneCardZCode.forEachIndex6) gdjs.OneCardZCode.forEachSorted6.push(gdjs.OneCardZCode.forEachIndex6);
+gdjs.OneCardZCode.forEachSorted6.sort(function(a, b) { return true ? gdjs.OneCardZCode.forEachSortKeys6[b] - gdjs.OneCardZCode.forEachSortKeys6[a] : gdjs.OneCardZCode.forEachSortKeys6[a] - gdjs.OneCardZCode.forEachSortKeys6[b]; });
+gdjs.OneCardZCode.forEachLimit6 = runtimeScene.getScene().getVariables().getFromIndex(3).getChild("AICount").getAsNumber() - 1;
+if (gdjs.OneCardZCode.forEachLimit6 >= 0 && gdjs.OneCardZCode.forEachSorted6.length > gdjs.OneCardZCode.forEachLimit6) gdjs.OneCardZCode.forEachSorted6.length = gdjs.OneCardZCode.forEachLimit6;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachSorted6.length;++gdjs.OneCardZCode.forEachIndex6) {
+gdjs.OneCardZCode.GDCardsObjects6.length = 0;
 
 
-gdjs.OneCardZCode.forEachTemporary5 = gdjs.OneCardZCode.forEachObjects5[gdjs.OneCardZCode.forEachSorted5[gdjs.OneCardZCode.forEachIndex5]];
-gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachTemporary5);
+gdjs.OneCardZCode.forEachTemporary6 = gdjs.OneCardZCode.forEachObjects6[gdjs.OneCardZCode.forEachSorted6[gdjs.OneCardZCode.forEachIndex6]];
+gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachTemporary6);
 let isConditionTrue_0 = false;
 if (true) {
 {runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").add(1);
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)).setNumber(runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").getAsNumber());
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(5)).setNumber(runtimeScene.getScene().getVariables().getFromIndex(3).getChild("SelCount").getAsNumber());
 }
 }
 }
@@ -8956,18 +8962,18 @@ if (true) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
@@ -8979,22 +8985,22 @@ gdjs.OneCardZCode.eventsList141(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(9)).setNumber(runtimeScene.getScene().getVariables().getFromIndex(9).getChild(gdjs.evtTools.common.toString(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(0).getAsNumber())).getAsNumber());
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(9)).setNumber(runtimeScene.getScene().getVariables().getFromIndex(9).getChild(gdjs.evtTools.common.toString(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(0).getAsNumber())).getAsNumber());
 }
 }
 }
@@ -9004,33 +9010,33 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(6)) == 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)) == 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(10)).setNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(9).getAsNumber() * 10);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(10)).setNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(9).getAsNumber() * 10);
 }
 }
 }
@@ -9040,7 +9046,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -9048,41 +9054,41 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(6)) == 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)) == 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(0)) == 11 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(0)) == 11 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(10)).add(30);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(10)).add(30);
 }
 }
 }
@@ -9092,7 +9098,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -9100,41 +9106,41 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(6)) == 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)) == 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(0)) == 13 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(0)) == 13 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(10)).add(30);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(10)).add(30);
 }
 }
 }
@@ -9144,7 +9150,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -9152,41 +9158,41 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(6)) == 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)) == 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(0)) == 14 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(0)) == 14 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(10)).add(30);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(10)).add(30);
 }
 }
 }
@@ -9196,7 +9202,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -9204,41 +9210,41 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(6)) == 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)) == 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(1)) == 4 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(1)) == 4 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(10)).sub(100);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(10)).sub(100);
 }
 }
 }
@@ -9248,28 +9254,28 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(6)) == 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)) == 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 if (isConditionTrue_0) {
 
@@ -9312,7 +9318,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -9320,34 +9326,34 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("AIValue").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("AIValue").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(5)) == 0 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)) == 0 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 }
@@ -9414,8 +9420,42 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(3).getChild("State").getAsNumber() != 9);
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects4, gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects5, gdjs.OneCardZCode.GDCardsObjects6);
 
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].getBehavior("Effect").enableEffect("Outline", false);
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(14)).setNumber(0);
+}
+}
+}
+
+}
+
+
+{
+
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(3).getChild("State").getAsNumber() == 9);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(7)) != runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Hand").getAsNumber() ) {
+        isConditionTrue_0 = true;
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
+        ++k;
+    }
+}
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
 {for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
     gdjs.OneCardZCode.GDCardsObjects5[i].getBehavior("Effect").enableEffect("Outline", false);
 }
@@ -9429,73 +9469,39 @@ gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects4, gdjs.OneCardZCode.GDCardsObjec
 }
 
 
-{
-
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(3).getChild("State").getAsNumber() == 9);
-}
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(7)) != runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Hand").getAsNumber() ) {
-        isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
-        ++k;
-    }
-}
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
-}
-if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].getBehavior("Effect").enableEffect("Outline", false);
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(14)).setNumber(0);
-}
-}
-}
-
-}
-
-
 };gdjs.OneCardZCode.eventsList149 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(7)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Hand").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(7)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Hand").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects4);
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HX").setNumber((( gdjs.OneCardZCode.GDCardsObjects4.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects4[0].getPointX("")) + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() / 2);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects5);
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HX").setNumber((( gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects5[0].getPointX("")) + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() / 2);
 }
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HY").setNumber((( gdjs.OneCardZCode.GDCardsObjects4.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects4[0].getPointY("")) - (( gdjs.OneCardZCode.GDHandObjects4.length === 0 ) ? 0 :gdjs.OneCardZCode.GDHandObjects4[0].getHeight()) / 2 - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("HandDistance").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Fl").getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HY").setNumber((( gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects5[0].getPointY("")) - (( gdjs.OneCardZCode.GDHandObjects5.length === 0 ) ? 0 :gdjs.OneCardZCode.GDHandObjects5[0].getHeight()) / 2 - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("HandDistance").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Fl").getAsNumber());
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HA").setNumber(180);
 }
@@ -9504,55 +9510,55 @@ gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects4
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextObjects4Objects = Hashtable.newFrom({"Text": gdjs.OneCardZCode.GDTextObjects4});
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextObjects5Objects = Hashtable.newFrom({"Text": gdjs.OneCardZCode.GDTextObjects5});
 gdjs.OneCardZCode.eventsList150 = function(runtimeScene) {
 
 };gdjs.OneCardZCode.eventsList151 = function(runtimeScene) {
 
 {
 
-/* Reuse gdjs.OneCardZCode.GDCardsObjects3 */
+/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
 
-gdjs.OneCardZCode.forEachObjects4.length = 0;
-gdjs.OneCardZCode.forEachObjects4.push.apply(gdjs.OneCardZCode.forEachObjects4,gdjs.OneCardZCode.GDCardsObjects3);
-gdjs.OneCardZCode.forEachTotalCount4 = gdjs.OneCardZCode.forEachObjects4.length;
-gdjs.OneCardZCode.forEachSortKeys4.length = 0;
-for (gdjs.OneCardZCode.forEachIndex4 = 0;gdjs.OneCardZCode.forEachIndex4 < gdjs.OneCardZCode.forEachTotalCount4;++gdjs.OneCardZCode.forEachIndex4) {
-gdjs.OneCardZCode.GDCardsObjects4.length = 0;
+gdjs.OneCardZCode.forEachObjects5.length = 0;
+gdjs.OneCardZCode.forEachObjects5.push.apply(gdjs.OneCardZCode.forEachObjects5,gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.OneCardZCode.forEachTotalCount5 = gdjs.OneCardZCode.forEachObjects5.length;
+gdjs.OneCardZCode.forEachSortKeys5.length = 0;
+for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachTotalCount5;++gdjs.OneCardZCode.forEachIndex5) {
+gdjs.OneCardZCode.GDCardsObjects5.length = 0;
 
 
-gdjs.OneCardZCode.GDCardsObjects4.push(gdjs.OneCardZCode.forEachObjects4[gdjs.OneCardZCode.forEachIndex4]);
-gdjs.OneCardZCode.forEachSortKeys4.push(((gdjs.OneCardZCode.GDCardsObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects4[0].getVariables()).getFromIndex(5).getAsNumber());
+gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachObjects5[gdjs.OneCardZCode.forEachIndex5]);
+gdjs.OneCardZCode.forEachSortKeys5.push(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(5).getAsNumber());
 }
-gdjs.OneCardZCode.forEachSorted4.length = 0;
-for (gdjs.OneCardZCode.forEachIndex4 = 0;gdjs.OneCardZCode.forEachIndex4 < gdjs.OneCardZCode.forEachTotalCount4;++gdjs.OneCardZCode.forEachIndex4) gdjs.OneCardZCode.forEachSorted4.push(gdjs.OneCardZCode.forEachIndex4);
-gdjs.OneCardZCode.forEachSorted4.sort(function(a, b) { return false ? gdjs.OneCardZCode.forEachSortKeys4[b] - gdjs.OneCardZCode.forEachSortKeys4[a] : gdjs.OneCardZCode.forEachSortKeys4[a] - gdjs.OneCardZCode.forEachSortKeys4[b]; });
-for (gdjs.OneCardZCode.forEachIndex4 = 0;gdjs.OneCardZCode.forEachIndex4 < gdjs.OneCardZCode.forEachSorted4.length;++gdjs.OneCardZCode.forEachIndex4) {
-gdjs.OneCardZCode.GDTextObjects4.length = 0;
+gdjs.OneCardZCode.forEachSorted5.length = 0;
+for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachTotalCount5;++gdjs.OneCardZCode.forEachIndex5) gdjs.OneCardZCode.forEachSorted5.push(gdjs.OneCardZCode.forEachIndex5);
+gdjs.OneCardZCode.forEachSorted5.sort(function(a, b) { return false ? gdjs.OneCardZCode.forEachSortKeys5[b] - gdjs.OneCardZCode.forEachSortKeys5[a] : gdjs.OneCardZCode.forEachSortKeys5[a] - gdjs.OneCardZCode.forEachSortKeys5[b]; });
+for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachSorted5.length;++gdjs.OneCardZCode.forEachIndex5) {
+gdjs.OneCardZCode.GDTextObjects5.length = 0;
 
-gdjs.OneCardZCode.GDCardsObjects4.length = 0;
+gdjs.OneCardZCode.GDCardsObjects5.length = 0;
 
 
-gdjs.OneCardZCode.forEachTemporary4 = gdjs.OneCardZCode.forEachObjects4[gdjs.OneCardZCode.forEachSorted4[gdjs.OneCardZCode.forEachIndex4]];
-gdjs.OneCardZCode.GDCardsObjects4.push(gdjs.OneCardZCode.forEachTemporary4);
+gdjs.OneCardZCode.forEachTemporary5 = gdjs.OneCardZCode.forEachObjects5[gdjs.OneCardZCode.forEachSorted5[gdjs.OneCardZCode.forEachIndex5]];
+gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachTemporary5);
 let isConditionTrue_0 = false;
 if (true) {
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextObjects4Objects, (( gdjs.OneCardZCode.GDCardsObjects4.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects4[0].getPointX("")) + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() / 2, (( gdjs.OneCardZCode.GDCardsObjects4.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects4[0].getPointY("")) - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("OrderNumberDistance").getAsNumber(), "");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextObjects5Objects, (( gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects5[0].getPointX("")) + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() / 2, (( gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects5[0].getPointY("")) - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("OrderNumberDistance").getAsNumber(), "");
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects4[i].returnVariable(gdjs.OneCardZCode.GDTextObjects4[i].getVariables().getFromIndex(0)).setString("OrderNumber");
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects4[i].returnVariable(gdjs.OneCardZCode.GDTextObjects4[i].getVariables().getFromIndex(1)).setNumber(((gdjs.OneCardZCode.GDCardsObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects4[0].getVariables()).getFromIndex(5).getAsNumber());
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects5[i].returnVariable(gdjs.OneCardZCode.GDTextObjects5[i].getVariables().getFromIndex(0)).setString("OrderNumber");
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects4[i].setZOrder(99999);
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects5[i].returnVariable(gdjs.OneCardZCode.GDTextObjects5[i].getVariables().getFromIndex(1)).setNumber(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(5).getAsNumber());
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects4[i].getBehavior("Text").setText(gdjs.evtTools.common.toString(((gdjs.OneCardZCode.GDCardsObjects4.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects4[0].getVariables()).getFromIndex(5).getAsNumber()));
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects5[i].setZOrder(99999);
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects5[i].getBehavior("Text").setText(gdjs.evtTools.common.toString(((gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects5[0].getVariables()).getFromIndex(5).getAsNumber()));
 }
 }
 }
@@ -9662,9 +9668,9 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() >= 0);
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].setColor("255;255;255");
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].setColor("255;255;255");
 }
 }
 }
@@ -9674,7 +9680,7 @@ gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObject
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -9686,42 +9692,42 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(6)) == 0 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(6)) == 0 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(5)) == 0 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(5)) == 0 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].setColor(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("DimColor").getAsString());
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].setColor(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("DimColor").getAsString());
 }
 }
 }
@@ -9731,18 +9737,18 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(14)) == 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(14)) == 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
@@ -9754,7 +9760,7 @@ gdjs.OneCardZCode.eventsList148(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -9766,46 +9772,46 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(7)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Hand").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(7)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Hand").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(14)) == 0 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(14)) == 0 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].getBehavior("Effect").enableEffect("Outline", true);
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].getBehavior("Effect").enableEffect("Outline", true);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects4[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(14)).setNumber(1);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(14)).setNumber(1);
 }
 }
 }
@@ -10073,10 +10079,10 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects5);
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HX").setNumber(gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0));
 }
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HY").setNumber(gdjs.evtTools.camera.getCameraBorderBottom(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(1).getChild("MarginY").getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() / 2 - (( gdjs.OneCardZCode.GDHandObjects4.length === 0 ) ? 0 :gdjs.OneCardZCode.GDHandObjects4[0].getHeight()) / 2 - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("HandDistance").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Fl").getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HY").setNumber(gdjs.evtTools.camera.getCameraBorderBottom(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(1).getChild("MarginY").getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() / 2 - (( gdjs.OneCardZCode.GDHandObjects5.length === 0 ) ? 0 :gdjs.OneCardZCode.GDHandObjects5[0].getHeight()) / 2 - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("HandDistance").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Fl").getAsNumber());
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HA").setNumber(180);
 }
@@ -10098,8 +10104,8 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects4);
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HX").setNumber(gdjs.evtTools.camera.getCameraBorderLeft(runtimeScene, "", 0) + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("MarginX").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() / 2 + (( gdjs.OneCardZCode.GDHandObjects4.length === 0 ) ? 0 :gdjs.OneCardZCode.GDHandObjects4[0].getHeight()) / 2 + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("HandDistance").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Fl").getAsNumber());
+gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects5);
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HX").setNumber(gdjs.evtTools.camera.getCameraBorderLeft(runtimeScene, "", 0) + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("MarginX").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() / 2 + (( gdjs.OneCardZCode.GDHandObjects5.length === 0 ) ? 0 :gdjs.OneCardZCode.GDHandObjects5[0].getHeight()) / 2 + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("HandDistance").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Fl").getAsNumber());
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HY").setNumber(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0));
 }
@@ -10123,10 +10129,10 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects5);
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HX").setNumber(gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0));
 }
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HY").setNumber(gdjs.evtTools.camera.getCameraBorderTop(runtimeScene, "", 0) + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("MarginY").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() / 2 + (( gdjs.OneCardZCode.GDHandObjects4.length === 0 ) ? 0 :gdjs.OneCardZCode.GDHandObjects4[0].getHeight()) / 2 + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("HandDistance").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Fl").getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HY").setNumber(gdjs.evtTools.camera.getCameraBorderTop(runtimeScene, "", 0) + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("MarginY").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() / 2 + (( gdjs.OneCardZCode.GDHandObjects5.length === 0 ) ? 0 :gdjs.OneCardZCode.GDHandObjects5[0].getHeight()) / 2 + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("HandDistance").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Fl").getAsNumber());
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HA").setNumber(0);
 }
@@ -10148,8 +10154,8 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects4);
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HX").setNumber(gdjs.evtTools.camera.getCameraBorderRight(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(1).getChild("MarginX").getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() / 2 - (( gdjs.OneCardZCode.GDHandObjects4.length === 0 ) ? 0 :gdjs.OneCardZCode.GDHandObjects4[0].getHeight()) / 2 - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("HandDistance").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Fl").getAsNumber());
+gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects5);
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HX").setNumber(gdjs.evtTools.camera.getCameraBorderRight(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(1).getChild("MarginX").getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() / 2 - (( gdjs.OneCardZCode.GDHandObjects5.length === 0 ) ? 0 :gdjs.OneCardZCode.GDHandObjects5[0].getHeight()) / 2 - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("HandDistance").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Fl").getAsNumber());
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HY").setNumber(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0));
 }
@@ -10168,10 +10174,10 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Mode").getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects5);
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HX").setNumber(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CamCenterX").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() * 2.5);
 }
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HY").setNumber(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CamCenterY").getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() / 2 - (( gdjs.OneCardZCode.GDHandObjects4.length === 0 ) ? 0 :gdjs.OneCardZCode.GDHandObjects4[0].getHeight()) / 2 - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("HandDistance").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Fl").getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HY").setNumber(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CamCenterY").getAsNumber() - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() / 2 - (( gdjs.OneCardZCode.GDHandObjects5.length === 0 ) ? 0 :gdjs.OneCardZCode.GDHandObjects5[0].getHeight()) / 2 - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("HandDistance").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Fl").getAsNumber());
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HA").setNumber(180);
 }
@@ -10188,10 +10194,10 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Mode").getAsNumber() == 3);
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects5);
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HX").setNumber(gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0));
 }
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HY").setNumber(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() - (( gdjs.OneCardZCode.GDHandObjects4.length === 0 ) ? 0 :gdjs.OneCardZCode.GDHandObjects4[0].getHeight()) / 2 - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("HandDistance").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Fl").getAsNumber());
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HY").setNumber(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() - (( gdjs.OneCardZCode.GDHandObjects5.length === 0 ) ? 0 :gdjs.OneCardZCode.GDHandObjects5[0].getHeight()) / 2 - runtimeScene.getScene().getVariables().getFromIndex(0).getChild("HandDistance").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Fl").getAsNumber());
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HA").setNumber(180);
 }
@@ -10251,13 +10257,13 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects4);
-{for(var i = 0, len = gdjs.OneCardZCode.GDHandObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDHandObjects4[i].setPosition((gdjs.OneCardZCode.GDHandObjects4[i].getPointX("")) + (runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HX").getAsNumber() - (gdjs.OneCardZCode.GDHandObjects4[i].getPointX(""))) * runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HP").getAsNumber(),(gdjs.OneCardZCode.GDHandObjects4[i].getPointY("")) + (runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HY").getAsNumber() - (gdjs.OneCardZCode.GDHandObjects4[i].getPointY(""))) * runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HP").getAsNumber());
+gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects5);
+{for(var i = 0, len = gdjs.OneCardZCode.GDHandObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDHandObjects5[i].setPosition((gdjs.OneCardZCode.GDHandObjects5[i].getPointX("")) + (runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HX").getAsNumber() - (gdjs.OneCardZCode.GDHandObjects5[i].getPointX(""))) * runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HP").getAsNumber(),(gdjs.OneCardZCode.GDHandObjects5[i].getPointY("")) + (runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HY").getAsNumber() - (gdjs.OneCardZCode.GDHandObjects5[i].getPointY(""))) * runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HP").getAsNumber());
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDHandObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDHandObjects4[i].setAngle((gdjs.OneCardZCode.GDHandObjects4[i].getAngle()) + (gdjs.evtTools.common.mod(gdjs.evtTools.common.mod(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HA").getAsNumber() - (gdjs.OneCardZCode.GDHandObjects4[i].getAngle()) + 540, 360) + 360, 360) - 180) * runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HKT").getAsNumber());
+{for(var i = 0, len = gdjs.OneCardZCode.GDHandObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDHandObjects5[i].setAngle((gdjs.OneCardZCode.GDHandObjects5[i].getAngle()) + (gdjs.evtTools.common.mod(gdjs.evtTools.common.mod(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HA").getAsNumber() - (gdjs.OneCardZCode.GDHandObjects5[i].getAngle()) + 540, 360) + 360, 360) - 180) * runtimeScene.getScene().getVariables().getFromIndex(1).getChild("HKT").getAsNumber());
 }
 }
 }
@@ -10278,9 +10284,9 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects4);
-{for(var i = 0, len = gdjs.OneCardZCode.GDHandObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDHandObjects4[i].setAngle(runtimeScene.getScene().getVariables().getFromIndex(3).getChild("PickShow").getAsNumber() * 90);
+gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects5);
+{for(var i = 0, len = gdjs.OneCardZCode.GDHandObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDHandObjects5[i].setAngle(runtimeScene.getScene().getVariables().getFromIndex(3).getChild("PickShow").getAsNumber() * 90);
 }
 }
 }
@@ -10290,22 +10296,22 @@ gdjs.copyArray(runtimeScene.getObjects("Hand"), gdjs.OneCardZCode.GDHandObjects4
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Text"), gdjs.OneCardZCode.GDTextObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Text"), gdjs.OneCardZCode.GDTextObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDTextObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDTextObjects4[i].getVariableString(gdjs.OneCardZCode.GDTextObjects4[i].getVariables().getFromIndex(0)) == "OrderNumber" ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDTextObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDTextObjects5[i].getVariableString(gdjs.OneCardZCode.GDTextObjects5[i].getVariables().getFromIndex(0)) == "OrderNumber" ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDTextObjects4[k] = gdjs.OneCardZCode.GDTextObjects4[i];
+        gdjs.OneCardZCode.GDTextObjects5[k] = gdjs.OneCardZCode.GDTextObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDTextObjects4.length = k;
+gdjs.OneCardZCode.GDTextObjects5.length = k;
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDTextObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects4[i].deleteFromScene(runtimeScene);
+/* Reuse gdjs.OneCardZCode.GDTextObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects5[i].deleteFromScene(runtimeScene);
 }
 }
 }
@@ -10315,7 +10321,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects3);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -10327,24 +10333,24 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects3.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects3[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects3[i].getVariables().getFromIndex(2)) == 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects3[k] = gdjs.OneCardZCode.GDCardsObjects3[i];
+        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects3.length = k;
+gdjs.OneCardZCode.GDCardsObjects4.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects3.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects3[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects3[i].getVariables().getFromIndex(5)) > 0 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(5)) > 0 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects3[k] = gdjs.OneCardZCode.GDCardsObjects3[i];
+        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects3.length = k;
+gdjs.OneCardZCode.GDCardsObjects4.length = k;
 }
 }
 }
@@ -10357,7 +10363,7 @@ gdjs.OneCardZCode.eventsList151(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDColorPickerObjects6Objects = Hashtable.newFrom({"ColorPicker": gdjs.OneCardZCode.GDColorPickerObjects6});
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDColorPickerObjects7Objects = Hashtable.newFrom({"ColorPicker": gdjs.OneCardZCode.GDColorPickerObjects7});
 gdjs.OneCardZCode.eventsList153 = function(runtimeScene) {
 
 {
@@ -10365,24 +10371,24 @@ gdjs.OneCardZCode.eventsList153 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 {
-gdjs.OneCardZCode.GDColorPickerObjects6.length = 0;
+gdjs.OneCardZCode.GDColorPickerObjects7.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDColorPickerObjects6Objects, 0, 0, "");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDColorPickerObjects7Objects, 0, 0, "");
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDColorPickerObjects6[i].returnVariable(gdjs.OneCardZCode.GDColorPickerObjects6[i].getVariables().getFromIndex(0)).setNumber(gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber());
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDColorPickerObjects6[i].getBehavior("Animation").setAnimationIndex(gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber());
+{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDColorPickerObjects7[i].returnVariable(gdjs.OneCardZCode.GDColorPickerObjects7[i].getVariables().getFromIndex(0)).setNumber(gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber());
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDColorPickerObjects6[i].setZOrder(150000);
+{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDColorPickerObjects7[i].getBehavior("Animation").setAnimationIndex(gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber());
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDColorPickerObjects6[i].getBehavior("Opacity").setOpacity(0);
+{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDColorPickerObjects7[i].setZOrder(150000);
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDColorPickerObjects7[i].getBehavior("Opacity").setOpacity(0);
 }
 }
 {gdjs.OneCardZCode.localVariables[0].getFromIndex(0).add(1);
@@ -10406,10 +10412,10 @@ variables._declare("Adv", variable);
 }
 gdjs.OneCardZCode.localVariables.push(variables);
 }
-const repeatCount5 = 4;
-for (let repeatIndex5 = 0;repeatIndex5 < repeatCount5;++repeatIndex5) {
+const repeatCount6 = 4;
+for (let repeatIndex6 = 0;repeatIndex6 < repeatCount6;++repeatIndex6) {
 
-gdjs.OneCardZCode.localVariables[0].getFromIndex(0).setNumber(repeatIndex5);
+gdjs.OneCardZCode.localVariables[0].getFromIndex(0).setNumber(repeatIndex6);
 let isConditionTrue_0 = false;
 if (true)
 {
@@ -10429,31 +10435,31 @@ gdjs.OneCardZCode.localVariables.pop();
 
 {
 
-/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
+/* Reuse gdjs.OneCardZCode.GDCardsObjects6 */
 
-gdjs.OneCardZCode.forEachObjects6.length = 0;
-gdjs.OneCardZCode.forEachObjects6.push.apply(gdjs.OneCardZCode.forEachObjects6,gdjs.OneCardZCode.GDCardsObjects5);
-gdjs.OneCardZCode.forEachTotalCount6 = gdjs.OneCardZCode.forEachObjects6.length;
-gdjs.OneCardZCode.forEachSortKeys6.length = 0;
-for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachTotalCount6;++gdjs.OneCardZCode.forEachIndex6) {
-gdjs.OneCardZCode.GDCardsObjects6.length = 0;
+gdjs.OneCardZCode.forEachObjects7.length = 0;
+gdjs.OneCardZCode.forEachObjects7.push.apply(gdjs.OneCardZCode.forEachObjects7,gdjs.OneCardZCode.GDCardsObjects6);
+gdjs.OneCardZCode.forEachTotalCount7 = gdjs.OneCardZCode.forEachObjects7.length;
+gdjs.OneCardZCode.forEachSortKeys7.length = 0;
+for (gdjs.OneCardZCode.forEachIndex7 = 0;gdjs.OneCardZCode.forEachIndex7 < gdjs.OneCardZCode.forEachTotalCount7;++gdjs.OneCardZCode.forEachIndex7) {
+gdjs.OneCardZCode.GDCardsObjects7.length = 0;
 
 
-gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachObjects6[gdjs.OneCardZCode.forEachIndex6]);
-gdjs.OneCardZCode.forEachSortKeys6.push(((gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects6[0].getVariables()).getFromIndex(7).getAsNumber());
+gdjs.OneCardZCode.GDCardsObjects7.push(gdjs.OneCardZCode.forEachObjects7[gdjs.OneCardZCode.forEachIndex7]);
+gdjs.OneCardZCode.forEachSortKeys7.push(((gdjs.OneCardZCode.GDCardsObjects7.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects7[0].getVariables()).getFromIndex(7).getAsNumber());
 }
-gdjs.OneCardZCode.forEachSorted6.length = 0;
-for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachTotalCount6;++gdjs.OneCardZCode.forEachIndex6) gdjs.OneCardZCode.forEachSorted6.push(gdjs.OneCardZCode.forEachIndex6);
-gdjs.OneCardZCode.forEachSorted6.sort(function(a, b) { return false ? gdjs.OneCardZCode.forEachSortKeys6[b] - gdjs.OneCardZCode.forEachSortKeys6[a] : gdjs.OneCardZCode.forEachSortKeys6[a] - gdjs.OneCardZCode.forEachSortKeys6[b]; });
-for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachSorted6.length;++gdjs.OneCardZCode.forEachIndex6) {
-gdjs.OneCardZCode.GDCardsObjects6.length = 0;
+gdjs.OneCardZCode.forEachSorted7.length = 0;
+for (gdjs.OneCardZCode.forEachIndex7 = 0;gdjs.OneCardZCode.forEachIndex7 < gdjs.OneCardZCode.forEachTotalCount7;++gdjs.OneCardZCode.forEachIndex7) gdjs.OneCardZCode.forEachSorted7.push(gdjs.OneCardZCode.forEachIndex7);
+gdjs.OneCardZCode.forEachSorted7.sort(function(a, b) { return false ? gdjs.OneCardZCode.forEachSortKeys7[b] - gdjs.OneCardZCode.forEachSortKeys7[a] : gdjs.OneCardZCode.forEachSortKeys7[a] - gdjs.OneCardZCode.forEachSortKeys7[b]; });
+for (gdjs.OneCardZCode.forEachIndex7 = 0;gdjs.OneCardZCode.forEachIndex7 < gdjs.OneCardZCode.forEachSorted7.length;++gdjs.OneCardZCode.forEachIndex7) {
+gdjs.OneCardZCode.GDCardsObjects7.length = 0;
 
 
-gdjs.OneCardZCode.forEachTemporary6 = gdjs.OneCardZCode.forEachObjects6[gdjs.OneCardZCode.forEachSorted6[gdjs.OneCardZCode.forEachIndex6]];
-gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachTemporary6);
+gdjs.OneCardZCode.forEachTemporary7 = gdjs.OneCardZCode.forEachObjects7[gdjs.OneCardZCode.forEachSorted7[gdjs.OneCardZCode.forEachIndex7]];
+gdjs.OneCardZCode.GDCardsObjects7.push(gdjs.OneCardZCode.forEachTemporary7);
 let isConditionTrue_0 = false;
 if (true) {
-{runtimeScene.getScene().getVariables().getFromIndex(10).getChild(gdjs.evtTools.common.toString(((gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects6[0].getVariables()).getFromIndex(1).getAsNumber())).add(1);
+{runtimeScene.getScene().getVariables().getFromIndex(10).getChild(gdjs.evtTools.common.toString(((gdjs.OneCardZCode.GDCardsObjects7.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.OneCardZCode.GDCardsObjects7[0].getVariables()).getFromIndex(1).getAsNumber())).add(1);
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CSum").add(1);
 }
@@ -10467,7 +10473,7 @@ if (true) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects6);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -10475,24 +10481,24 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Player").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects5.length = k;
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(1)) < 4 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(1)) < 4 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects5.length = k;
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
 }
 }
 if (isConditionTrue_0) {
@@ -10767,22 +10773,22 @@ if (isConditionTrue_0) {
 
 {
 
-/* Reuse gdjs.OneCardZCode.GDColorPickerObjects4 */
+/* Reuse gdjs.OneCardZCode.GDColorPickerObjects5 */
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDColorPickerObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDColorPickerObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDColorPickerObjects4[i].getVariables().getFromIndex(0)) != runtimeScene.getScene().getVariables().getFromIndex(3).getChild("PickShow").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDColorPickerObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDColorPickerObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDColorPickerObjects5[i].getVariables().getFromIndex(0)) != runtimeScene.getScene().getVariables().getFromIndex(3).getChild("PickShow").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDColorPickerObjects4[k] = gdjs.OneCardZCode.GDColorPickerObjects4[i];
+        gdjs.OneCardZCode.GDColorPickerObjects5[k] = gdjs.OneCardZCode.GDColorPickerObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDColorPickerObjects4.length = k;
+gdjs.OneCardZCode.GDColorPickerObjects5.length = k;
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDColorPickerObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDColorPickerObjects4[i].setColor(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("DimColor").getAsString());
+/* Reuse gdjs.OneCardZCode.GDColorPickerObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDColorPickerObjects5[i].setColor(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("DimColor").getAsString());
 }
 }
 }
@@ -10794,22 +10800,22 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("ColorPicker"), gdjs.OneCardZCode.GDColorPickerObjects5);
+gdjs.copyArray(runtimeScene.getObjects("ColorPicker"), gdjs.OneCardZCode.GDColorPickerObjects6);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDColorPickerObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDColorPickerObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDColorPickerObjects5[i].getVariables().getFromIndex(0)) != runtimeScene.getScene().getVariables().getFromIndex(3).getChild("PickColor").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDColorPickerObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDColorPickerObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDColorPickerObjects6[i].getVariables().getFromIndex(0)) != runtimeScene.getScene().getVariables().getFromIndex(3).getChild("PickColor").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDColorPickerObjects5[k] = gdjs.OneCardZCode.GDColorPickerObjects5[i];
+        gdjs.OneCardZCode.GDColorPickerObjects6[k] = gdjs.OneCardZCode.GDColorPickerObjects6[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDColorPickerObjects5.length = k;
+gdjs.OneCardZCode.GDColorPickerObjects6.length = k;
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDColorPickerObjects5 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDColorPickerObjects5[i].getBehavior("Opacity").setOpacity(0);
+/* Reuse gdjs.OneCardZCode.GDColorPickerObjects6 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDColorPickerObjects6[i].getBehavior("Opacity").setOpacity(0);
 }
 }
 }
@@ -10819,22 +10825,22 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("ColorPicker"), gdjs.OneCardZCode.GDColorPickerObjects4);
+gdjs.copyArray(runtimeScene.getObjects("ColorPicker"), gdjs.OneCardZCode.GDColorPickerObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDColorPickerObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDColorPickerObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDColorPickerObjects4[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("PickColor").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDColorPickerObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDColorPickerObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDColorPickerObjects5[i].getVariables().getFromIndex(0)) == runtimeScene.getScene().getVariables().getFromIndex(3).getChild("PickColor").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDColorPickerObjects4[k] = gdjs.OneCardZCode.GDColorPickerObjects4[i];
+        gdjs.OneCardZCode.GDColorPickerObjects5[k] = gdjs.OneCardZCode.GDColorPickerObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDColorPickerObjects4.length = k;
+gdjs.OneCardZCode.GDColorPickerObjects5.length = k;
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDColorPickerObjects4 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDColorPickerObjects4[i].getBehavior("Tween").addObjectOpacityTween2("Fade", 0, runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), 0.3, false);
+/* Reuse gdjs.OneCardZCode.GDColorPickerObjects5 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDColorPickerObjects5[i].getBehavior("Tween").addObjectOpacityTween2("Fade", 0, runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), 0.3, false);
 }
 }
 }
@@ -10882,7 +10888,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("ColorPicker"), gdjs.OneCardZCode.GDColorPickerObjects4);
+gdjs.copyArray(runtimeScene.getObjects("ColorPicker"), gdjs.OneCardZCode.GDColorPickerObjects5);
 {runtimeScene.getScene().getVariables().getFromIndex(3).getChild("PickPhase").setNumber(1);
 }
 {runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Timer").setNumber(0);
@@ -10901,8 +10907,8 @@ gdjs.copyArray(runtimeScene.getObjects("ColorPicker"), gdjs.OneCardZCode.GDColor
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CSum").setNumber(0);
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDColorPickerObjects4[i].getBehavior("Opacity").setOpacity(255);
+{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDColorPickerObjects5[i].getBehavior("Opacity").setOpacity(255);
 }
 }
 
@@ -10951,9 +10957,9 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("ColorPicker"), gdjs.OneCardZCode.GDColorPickerObjects4);
-{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDColorPickerObjects4[i].putAround(gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0), gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), (gdjs.evtTools.common.mod(gdjs.OneCardZCode.GDColorPickerObjects4[i].getVariables().getFromIndex(0).getAsNumber(), 2) * (runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() / 2 + (gdjs.OneCardZCode.GDColorPickerObjects4[i].getWidth()) / 2) + (1 - gdjs.evtTools.common.mod(gdjs.OneCardZCode.GDColorPickerObjects4[i].getVariables().getFromIndex(0).getAsNumber(), 2)) * (runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() / 2 + (gdjs.OneCardZCode.GDColorPickerObjects4[i].getHeight()) / 2) + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("PickerGap").getAsNumber()) * (1 - Math.pow(1 - runtimeScene.getScene().getVariables().getFromIndex(1).getChild("PickT").getAsNumber(), 3)), ((360 / 4) * gdjs.OneCardZCode.GDColorPickerObjects4[i].getVariables().getFromIndex(0).getAsNumber()) - (360 / 4));
+gdjs.copyArray(runtimeScene.getObjects("ColorPicker"), gdjs.OneCardZCode.GDColorPickerObjects5);
+{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDColorPickerObjects5[i].putAround(gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0), gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), (gdjs.evtTools.common.mod(gdjs.OneCardZCode.GDColorPickerObjects5[i].getVariables().getFromIndex(0).getAsNumber(), 2) * (runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() / 2 + (gdjs.OneCardZCode.GDColorPickerObjects5[i].getWidth()) / 2) + (1 - gdjs.evtTools.common.mod(gdjs.OneCardZCode.GDColorPickerObjects5[i].getVariables().getFromIndex(0).getAsNumber(), 2)) * (runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardHeight").getAsNumber() / 2 + (gdjs.OneCardZCode.GDColorPickerObjects5[i].getHeight()) / 2) + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("PickerGap").getAsNumber()) * (1 - Math.pow(1 - runtimeScene.getScene().getVariables().getFromIndex(1).getChild("PickT").getAsNumber(), 3)), ((360 / 4) * gdjs.OneCardZCode.GDColorPickerObjects5[i].getVariables().getFromIndex(0).getAsNumber()) - (360 / 4));
 }
 }
 }
@@ -11063,9 +11069,9 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("ColorPicker"), gdjs.OneCardZCode.GDColorPickerObjects4);
-{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDColorPickerObjects4[i].setColor("255;255;255");
+gdjs.copyArray(runtimeScene.getObjects("ColorPicker"), gdjs.OneCardZCode.GDColorPickerObjects5);
+{for(var i = 0, len = gdjs.OneCardZCode.GDColorPickerObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDColorPickerObjects5[i].setColor("255;255;255");
 }
 }
 
@@ -11134,9 +11140,9 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects4});
-gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects4});
-gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects4});
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects5});
+gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects5});
+gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects5});
 gdjs.OneCardZCode.eventsList164 = function(runtimeScene) {
 
 {
@@ -11147,30 +11153,30 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber() > 0);
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects5, gdjs.OneCardZCode.GDCardsObjects6);
+gdjs.copyArray(gdjs.OneCardZCode.GDCardsObjects6, gdjs.OneCardZCode.GDCardsObjects7);
 
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)).setNumber(0);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(2)).setNumber(0);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].setPosition(0,0);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].setPosition(0,0);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].setZOrder(2 + gdjs.random(70));
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].setZOrder(2 + gdjs.random(70));
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].getBehavior("Animation").setAnimationName("BackFace");
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].getBehavior("Animation").setAnimationName("BackFace");
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].getBehavior("Animation").pauseAnimation();
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].getBehavior("Animation").pauseAnimation();
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].setAnimationFrame(0);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].setAnimationFrame(0);
 }
 }
 }
@@ -11194,28 +11200,28 @@ let isConditionTrue_0 = false;
 
 {
 
-/* Reuse gdjs.OneCardZCode.GDCardsObjects4 */
+/* Reuse gdjs.OneCardZCode.GDCardsObjects5 */
 
-gdjs.OneCardZCode.forEachObjects5.length = 0;
-gdjs.OneCardZCode.forEachObjects5.push.apply(gdjs.OneCardZCode.forEachObjects5,gdjs.OneCardZCode.GDCardsObjects4);
-gdjs.OneCardZCode.forEachTotalCount5 = gdjs.OneCardZCode.forEachObjects5.length;
-gdjs.OneCardZCode.forEachSortKeys5.length = 0;
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachTotalCount5;++gdjs.OneCardZCode.forEachIndex5) {
-gdjs.OneCardZCode.GDCardsObjects5.length = 0;
+gdjs.OneCardZCode.forEachObjects6.length = 0;
+gdjs.OneCardZCode.forEachObjects6.push.apply(gdjs.OneCardZCode.forEachObjects6,gdjs.OneCardZCode.GDCardsObjects5);
+gdjs.OneCardZCode.forEachTotalCount6 = gdjs.OneCardZCode.forEachObjects6.length;
+gdjs.OneCardZCode.forEachSortKeys6.length = 0;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachTotalCount6;++gdjs.OneCardZCode.forEachIndex6) {
+gdjs.OneCardZCode.GDCardsObjects6.length = 0;
 
 
-gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachObjects5[gdjs.OneCardZCode.forEachIndex5]);
-gdjs.OneCardZCode.forEachSortKeys5.push((( gdjs.OneCardZCode.GDCardsObjects5.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects5[0].getZOrder()));
+gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachObjects6[gdjs.OneCardZCode.forEachIndex6]);
+gdjs.OneCardZCode.forEachSortKeys6.push((( gdjs.OneCardZCode.GDCardsObjects6.length === 0 ) ? 0 :gdjs.OneCardZCode.GDCardsObjects6[0].getZOrder()));
 }
-gdjs.OneCardZCode.forEachSorted5.length = 0;
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachTotalCount5;++gdjs.OneCardZCode.forEachIndex5) gdjs.OneCardZCode.forEachSorted5.push(gdjs.OneCardZCode.forEachIndex5);
-gdjs.OneCardZCode.forEachSorted5.sort(function(a, b) { return true ? gdjs.OneCardZCode.forEachSortKeys5[b] - gdjs.OneCardZCode.forEachSortKeys5[a] : gdjs.OneCardZCode.forEachSortKeys5[a] - gdjs.OneCardZCode.forEachSortKeys5[b]; });
-for (gdjs.OneCardZCode.forEachIndex5 = 0;gdjs.OneCardZCode.forEachIndex5 < gdjs.OneCardZCode.forEachSorted5.length;++gdjs.OneCardZCode.forEachIndex5) {
-gdjs.OneCardZCode.GDCardsObjects5.length = 0;
+gdjs.OneCardZCode.forEachSorted6.length = 0;
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachTotalCount6;++gdjs.OneCardZCode.forEachIndex6) gdjs.OneCardZCode.forEachSorted6.push(gdjs.OneCardZCode.forEachIndex6);
+gdjs.OneCardZCode.forEachSorted6.sort(function(a, b) { return true ? gdjs.OneCardZCode.forEachSortKeys6[b] - gdjs.OneCardZCode.forEachSortKeys6[a] : gdjs.OneCardZCode.forEachSortKeys6[a] - gdjs.OneCardZCode.forEachSortKeys6[b]; });
+for (gdjs.OneCardZCode.forEachIndex6 = 0;gdjs.OneCardZCode.forEachIndex6 < gdjs.OneCardZCode.forEachSorted6.length;++gdjs.OneCardZCode.forEachIndex6) {
+gdjs.OneCardZCode.GDCardsObjects6.length = 0;
 
 
-gdjs.OneCardZCode.forEachTemporary5 = gdjs.OneCardZCode.forEachObjects5[gdjs.OneCardZCode.forEachSorted5[gdjs.OneCardZCode.forEachIndex5]];
-gdjs.OneCardZCode.GDCardsObjects5.push(gdjs.OneCardZCode.forEachTemporary5);
+gdjs.OneCardZCode.forEachTemporary6 = gdjs.OneCardZCode.forEachObjects6[gdjs.OneCardZCode.forEachSorted6[gdjs.OneCardZCode.forEachIndex6]];
+gdjs.OneCardZCode.GDCardsObjects6.push(gdjs.OneCardZCode.forEachTemporary6);
 let isConditionTrue_0 = false;
 if (true) {
 
@@ -11227,7 +11233,7 @@ gdjs.OneCardZCode.eventsList164(runtimeScene);} //Subevents end.
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects5});
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects6Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects6});
 gdjs.OneCardZCode.eventsList166 = function(runtimeScene) {
 
 };gdjs.OneCardZCode.eventsList167 = function(runtimeScene) {
@@ -11235,40 +11241,40 @@ gdjs.OneCardZCode.eventsList166 = function(runtimeScene) {
 {
 
 
-const repeatCount5 = runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Short").getAsNumber();
-for (let repeatIndex5 = 0;repeatIndex5 < repeatCount5;++repeatIndex5) {
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
+const repeatCount6 = runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Short").getAsNumber();
+for (let repeatIndex6 = 0;repeatIndex6 < repeatCount6;++repeatIndex6) {
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects6);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == 8 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)) == 8 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
+        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects5.length = k;
+gdjs.OneCardZCode.GDCardsObjects6.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.pickRandomObject(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects);
+isConditionTrue_0 = gdjs.evtTools.object.pickRandomObject(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects6Objects);
 }
 if (isConditionTrue_0)
 {
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)).setNumber(0);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)).setNumber(0);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].hide(false);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].hide(false);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].setPosition(0,0);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].setPosition(0,0);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects5[i].setZOrder(-1 - gdjs.random(50));
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects6[i].setZOrder(-1 - gdjs.random(50));
 }
 }
 }
@@ -11277,7 +11283,7 @@ if (isConditionTrue_0)
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects9Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects9});
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects10Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects10});
 gdjs.OneCardZCode.eventsList168 = function(runtimeScene) {
 
 {
@@ -11285,34 +11291,34 @@ gdjs.OneCardZCode.eventsList168 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 {
-gdjs.OneCardZCode.GDCardsObjects9.length = 0;
+gdjs.OneCardZCode.GDCardsObjects10.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects9Objects, 0, 0, "");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects10Objects, 0, 0, "");
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects9.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects9[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects9[i].getVariables().getFromIndex(0)).setNumber(gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber());
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects9.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects9[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects9[i].getVariables().getFromIndex(1)).setNumber(gdjs.OneCardZCode.localVariables[0].getFromIndex(1).getAsNumber());
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects10.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects10[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects10[i].getVariables().getFromIndex(0)).setNumber(gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber());
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects9.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects9[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects9[i].getVariables().getFromIndex(2)).setNumber(0);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects10.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects10[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects10[i].getVariables().getFromIndex(1)).setNumber(gdjs.OneCardZCode.localVariables[0].getFromIndex(1).getAsNumber());
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects9.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects9[i].setZOrder(-100 - gdjs.random(50));
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects10.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects10[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects10[i].getVariables().getFromIndex(2)).setNumber(0);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects9.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects9[i].getBehavior("Animation").setAnimationName("BackFace");
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects10.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects10[i].setZOrder(-100 - gdjs.random(50));
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects10.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects10[i].getBehavior("Animation").setAnimationName("BackFace");
 }
 }
 {gdjs.OneCardZCode.localVariables[0].getFromIndex(0).add(1);
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects9.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects9[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects9[i].getVariables().getFromIndex(3)).setNumber(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardIDAdv").getAsNumber());
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects10.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects10[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects10[i].getVariables().getFromIndex(3)).setNumber(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardIDAdv").getAsNumber());
 }
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardIDAdv").add(1);
@@ -11327,8 +11333,8 @@ gdjs.OneCardZCode.GDCardsObjects9.length = 0;
 {
 
 
-const repeatCount8 = 10;
-for (let repeatIndex8 = 0;repeatIndex8 < repeatCount8;++repeatIndex8) {
+const repeatCount9 = 10;
+for (let repeatIndex9 = 0;repeatIndex9 < repeatCount9;++repeatIndex9) {
 
 let isConditionTrue_0 = false;
 if (true)
@@ -11356,7 +11362,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects9Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects9});
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects10Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects10});
 gdjs.OneCardZCode.eventsList170 = function(runtimeScene) {
 
 {
@@ -11364,34 +11370,34 @@ gdjs.OneCardZCode.eventsList170 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 {
-gdjs.OneCardZCode.GDCardsObjects9.length = 0;
+gdjs.OneCardZCode.GDCardsObjects10.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects9Objects, 0, 0, "");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects10Objects, 0, 0, "");
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects9.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects9[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects9[i].getVariables().getFromIndex(0)).setNumber(10 + gdjs.evtTools.common.trunc(gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber() / 2));
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects9.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects9[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects9[i].getVariables().getFromIndex(1)).setNumber(gdjs.OneCardZCode.localVariables[0].getFromIndex(1).getAsNumber());
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects10.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects10[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects10[i].getVariables().getFromIndex(0)).setNumber(10 + gdjs.evtTools.common.trunc(gdjs.OneCardZCode.localVariables[0].getFromIndex(0).getAsNumber() / 2));
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects9.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects9[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects9[i].getVariables().getFromIndex(2)).setNumber(0);
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects10.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects10[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects10[i].getVariables().getFromIndex(1)).setNumber(gdjs.OneCardZCode.localVariables[0].getFromIndex(1).getAsNumber());
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects9.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects9[i].setZOrder(-100 - gdjs.random(50));
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects10.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects10[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects10[i].getVariables().getFromIndex(2)).setNumber(0);
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects9.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects9[i].getBehavior("Animation").setAnimationName("BackFace");
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects10.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects10[i].setZOrder(-100 - gdjs.random(50));
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects10.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects10[i].getBehavior("Animation").setAnimationName("BackFace");
 }
 }
 {gdjs.OneCardZCode.localVariables[0].getFromIndex(0).add(1);
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects9.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects9[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects9[i].getVariables().getFromIndex(3)).setNumber(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardIDAdv").getAsNumber());
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects10.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects10[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects10[i].getVariables().getFromIndex(3)).setNumber(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardIDAdv").getAsNumber());
 }
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardIDAdv").add(1);
@@ -11406,8 +11412,8 @@ gdjs.OneCardZCode.GDCardsObjects9.length = 0;
 {
 
 
-const repeatCount8 = 10;
-for (let repeatIndex8 = 0;repeatIndex8 < repeatCount8;++repeatIndex8) {
+const repeatCount9 = 10;
+for (let repeatIndex9 = 0;repeatIndex9 < repeatCount9;++repeatIndex9) {
 
 let isConditionTrue_0 = false;
 if (true)
@@ -11435,8 +11441,51 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects7Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects7});
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects8Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects8});
 gdjs.OneCardZCode.eventsList172 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.OneCardZCode.GDCardsObjects8.length = 0;
+
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects8Objects, 0, 0, "");
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects8.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects8[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects8[i].getVariables().getFromIndex(0)).setNumber(12);
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects8.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects8[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects8[i].getVariables().getFromIndex(1)).setNumber(4);
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects8.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects8[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects8[i].getVariables().getFromIndex(2)).setNumber(0);
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects8.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects8[i].setZOrder(-100 - gdjs.random(50));
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects8.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects8[i].getBehavior("Animation").setAnimationName("BackFace");
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects8.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects8[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects8[i].getVariables().getFromIndex(3)).setNumber(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardIDAdv").getAsNumber());
+}
+}
+{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardIDAdv").add(1);
+}
+}
+
+}
+
+
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects7Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects7});
+gdjs.OneCardZCode.eventsList173 = function(runtimeScene) {
 
 {
 
@@ -11448,7 +11497,7 @@ gdjs.OneCardZCode.GDCardsObjects7.length = 0;
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects7Objects, 0, 0, "");
 }
 {for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects7[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(0)).setNumber(12);
+    gdjs.OneCardZCode.GDCardsObjects7[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(0)).setNumber(14);
 }
 }
 {for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
@@ -11478,49 +11527,6 @@ gdjs.OneCardZCode.GDCardsObjects7.length = 0;
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects6Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects6});
-gdjs.OneCardZCode.eventsList173 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-gdjs.OneCardZCode.GDCardsObjects6.length = 0;
-
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects6Objects, 0, 0, "");
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(0)).setNumber(14);
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(1)).setNumber(4);
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)).setNumber(0);
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].setZOrder(-100 - gdjs.random(50));
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].getBehavior("Animation").setAnimationName("BackFace");
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].returnVariable(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(3)).setNumber(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardIDAdv").getAsNumber());
-}
-}
-{runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardIDAdv").add(1);
-}
-}
-
-}
-
-
 };gdjs.OneCardZCode.eventsList174 = function(runtimeScene) {
 
 {
@@ -11540,8 +11546,8 @@ variables._declare("AdvColor", variable);
 }
 gdjs.OneCardZCode.localVariables.push(variables);
 }
-const repeatCount6 = 4;
-for (let repeatIndex6 = 0;repeatIndex6 < repeatCount6;++repeatIndex6) {
+const repeatCount7 = 4;
+for (let repeatIndex7 = 0;repeatIndex7 < repeatCount7;++repeatIndex7) {
 
 let isConditionTrue_0 = false;
 if (true)
@@ -11573,8 +11579,8 @@ variables._declare("AdvColor", variable);
 }
 gdjs.OneCardZCode.localVariables.push(variables);
 }
-const repeatCount6 = 4;
-for (let repeatIndex6 = 0;repeatIndex6 < repeatCount6;++repeatIndex6) {
+const repeatCount7 = 4;
+for (let repeatIndex7 = 0;repeatIndex7 < repeatCount7;++repeatIndex7) {
 
 let isConditionTrue_0 = false;
 if (true)
@@ -11592,8 +11598,8 @@ gdjs.OneCardZCode.localVariables.pop();
 {
 
 
-const repeatCount6 = 4;
-for (let repeatIndex6 = 0;repeatIndex6 < repeatCount6;++repeatIndex6) {
+const repeatCount7 = 4;
+for (let repeatIndex7 = 0;repeatIndex7 < repeatCount7;++repeatIndex7) {
 
 let isConditionTrue_0 = false;
 if (true)
@@ -11610,8 +11616,8 @@ gdjs.OneCardZCode.eventsList172(runtimeScene);} //Subevents end.
 {
 
 
-const repeatCount5 = 4;
-for (let repeatIndex5 = 0;repeatIndex5 < repeatCount5;++repeatIndex5) {
+const repeatCount6 = 4;
+for (let repeatIndex6 = 0;repeatIndex6 < repeatCount6;++repeatIndex6) {
 
 let isConditionTrue_0 = false;
 if (true)
@@ -11629,20 +11635,20 @@ gdjs.OneCardZCode.eventsList173(runtimeScene);} //Subevents end.
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == 0 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == 0 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("DeckCount").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects));
+{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("DeckCount").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects));
 }
 }
 
@@ -11651,20 +11657,20 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == 9 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == 9 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("PileCount").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects));
+{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("PileCount").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects));
 }
 }
 
@@ -11673,20 +11679,20 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == 8 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == 8 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("ResCount").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects));
+{runtimeScene.getScene().getVariables().getFromIndex(3).getChild("ResCount").setNumber(gdjs.evtTools.object.getPickedInstancesCount(gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects5Objects));
 }
 }
 
@@ -11707,7 +11713,7 @@ let isConditionTrue_0 = false;
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects4);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects5);
 
 {
 const variables = new gdjs.VariablesContainer();
@@ -11728,14 +11734,14 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects4.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects4[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects4[i].getVariables().getFromIndex(2)) == 9 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects5.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects5[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects5[i].getVariables().getFromIndex(2)) == 9 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects4[k] = gdjs.OneCardZCode.GDCardsObjects4[i];
+        gdjs.OneCardZCode.GDCardsObjects5[k] = gdjs.OneCardZCode.GDCardsObjects5[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects4.length = k;
+gdjs.OneCardZCode.GDCardsObjects5.length = k;
 }
 }
 if (isConditionTrue_0) {
@@ -11826,8 +11832,8 @@ gdjs.OneCardZCode.eventsList175(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextObjects5Objects = Hashtable.newFrom({"Text": gdjs.OneCardZCode.GDTextObjects5});
-gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextObjects6Objects = Hashtable.newFrom({"Text": gdjs.OneCardZCode.GDTextObjects6});
+};gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextObjects6Objects = Hashtable.newFrom({"Text": gdjs.OneCardZCode.GDTextObjects6});
+gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextObjects7Objects = Hashtable.newFrom({"Text": gdjs.OneCardZCode.GDTextObjects7});
 gdjs.OneCardZCode.eventsList177 = function(runtimeScene) {
 
 };gdjs.OneCardZCode.eventsList178 = function(runtimeScene) {
@@ -11837,7 +11843,7 @@ gdjs.OneCardZCode.eventsList177 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 {
-gdjs.OneCardZCode.GDTextObjects5.length = 0;
+gdjs.OneCardZCode.GDTextObjects6.length = 0;
 
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("I").setNumber(0);
 }
@@ -11845,56 +11851,14 @@ gdjs.OneCardZCode.GDTextObjects5.length = 0;
 }
 {runtimeScene.getScene().getVariables().getFromIndex(3).getChild("ShowN").setNumber(0);
 }
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextObjects5Objects, 0, 0, "");
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects5[i].returnVariable(gdjs.OneCardZCode.GDTextObjects5[i].getVariables().getFromIndex(0)).setString("PileText");
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects5[i].returnVariable(gdjs.OneCardZCode.GDTextObjects5[i].getVariables().getFromIndex(1)).setNumber(9);
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects5[i].getBehavior("Scale").setScale(4);
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects5[i].setTextAlignment("center");
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects5[i].setZOrder(1000);
-}
-}
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects5.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects5[i].getBehavior("Text").setText("");
-}
-}
-}
-
-}
-
-
-{
-
-
-const repeatCount6 = 4;
-for (let repeatIndex6 = 0;repeatIndex6 < repeatCount6;++repeatIndex6) {
-gdjs.OneCardZCode.GDTextObjects6.length = 0;
-
-
-let isConditionTrue_0 = false;
-if (true)
-{
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextObjects6Objects, 0, 0, "");
 }
 {for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects6[i].returnVariable(gdjs.OneCardZCode.GDTextObjects6[i].getVariables().getFromIndex(0)).setString("PText");
+    gdjs.OneCardZCode.GDTextObjects6[i].returnVariable(gdjs.OneCardZCode.GDTextObjects6[i].getVariables().getFromIndex(0)).setString("PileText");
 }
 }
 {for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects6[i].returnVariable(gdjs.OneCardZCode.GDTextObjects6[i].getVariables().getFromIndex(1)).setNumber(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("I").getAsNumber());
+    gdjs.OneCardZCode.GDTextObjects6[i].returnVariable(gdjs.OneCardZCode.GDTextObjects6[i].getVariables().getFromIndex(1)).setNumber(9);
 }
 }
 {for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects6.length ;i < len;++i) {
@@ -11906,11 +11870,53 @@ if (true)
 }
 }
 {for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects6[i].setZOrder(99998);
+    gdjs.OneCardZCode.GDTextObjects6[i].setZOrder(1000);
 }
 }
 {for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects6.length ;i < len;++i) {
     gdjs.OneCardZCode.GDTextObjects6[i].getBehavior("Text").setText("");
+}
+}
+}
+
+}
+
+
+{
+
+
+const repeatCount7 = 4;
+for (let repeatIndex7 = 0;repeatIndex7 < repeatCount7;++repeatIndex7) {
+gdjs.OneCardZCode.GDTextObjects7.length = 0;
+
+
+let isConditionTrue_0 = false;
+if (true)
+{
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextObjects7Objects, 0, 0, "");
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects7[i].returnVariable(gdjs.OneCardZCode.GDTextObjects7[i].getVariables().getFromIndex(0)).setString("PText");
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects7[i].returnVariable(gdjs.OneCardZCode.GDTextObjects7[i].getVariables().getFromIndex(1)).setNumber(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("I").getAsNumber());
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects7[i].getBehavior("Scale").setScale(4);
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects7[i].setTextAlignment("center");
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects7[i].setZOrder(99998);
+}
+}
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects7[i].getBehavior("Text").setText("");
 }
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("I").add(1);
@@ -11946,10 +11952,10 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(gdjs.OneCardZCode.GDTextObjects6, gdjs.OneCardZCode.GDTextObjects7);
+gdjs.copyArray(gdjs.OneCardZCode.GDTextObjects7, gdjs.OneCardZCode.GDTextObjects8);
 
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects7.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects7[i].getBehavior("Text").setText("WAIT" + gdjs.evtTools.string.newLine() + gdjs.evtTools.common.toString(runtimeScene.getScene().getVariables().getFromIndex(4).getChild(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("P").getAsNumberOrString()).getAsNumber()));
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects8.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects8[i].getBehavior("Text").setText("WAIT" + gdjs.evtTools.string.newLine() + gdjs.evtTools.common.toString(runtimeScene.getScene().getVariables().getFromIndex(4).getChild(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("P").getAsNumberOrString()).getAsNumber()));
 }
 }
 }
@@ -11975,10 +11981,10 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(gdjs.OneCardZCode.GDTextObjects6, gdjs.OneCardZCode.GDTextObjects7);
+gdjs.copyArray(gdjs.OneCardZCode.GDTextObjects7, gdjs.OneCardZCode.GDTextObjects8);
 
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects7.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects7[i].getBehavior("Text").setText("+" + gdjs.evtTools.common.toString(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Shown").getAsNumber()));
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects8.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects8[i].getBehavior("Text").setText("+" + gdjs.evtTools.common.toString(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("Shown").getAsNumber()));
 }
 }
 }
@@ -11991,13 +11997,13 @@ gdjs.copyArray(gdjs.OneCardZCode.GDTextObjects6, gdjs.OneCardZCode.GDTextObjects
 
 let isConditionTrue_0 = false;
 {
-/* Reuse gdjs.OneCardZCode.GDTextObjects6 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects6[i].setTextAlignment("center");
+/* Reuse gdjs.OneCardZCode.GDTextObjects7 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects7[i].setTextAlignment("center");
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects6[i].setPosition(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("TX").getAsNumber() - (gdjs.OneCardZCode.GDTextObjects6[i].getWidth()) / 2,runtimeScene.getScene().getVariables().getFromIndex(1).getChild("TY").getAsNumber() - (gdjs.OneCardZCode.GDTextObjects6[i].getHeight()) / 1.7);
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects7[i].setPosition(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("TX").getAsNumber() - (gdjs.OneCardZCode.GDTextObjects7[i].getWidth()) / 2,runtimeScene.getScene().getVariables().getFromIndex(1).getChild("TY").getAsNumber() - (gdjs.OneCardZCode.GDTextObjects7[i].getHeight()) / 1.7);
 }
 }
 }
@@ -12077,7 +12083,7 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects6);
+gdjs.copyArray(runtimeScene.getObjects("Cards"), gdjs.OneCardZCode.GDCardsObjects7);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -12089,20 +12095,20 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDCardsObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects6[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(1).getChild("P").getAsNumber() + 1 ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDCardsObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDCardsObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDCardsObjects7[i].getVariables().getFromIndex(2)) == runtimeScene.getScene().getVariables().getFromIndex(1).getChild("P").getAsNumber() + 1 ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDCardsObjects6[k] = gdjs.OneCardZCode.GDCardsObjects6[i];
+        gdjs.OneCardZCode.GDCardsObjects7[k] = gdjs.OneCardZCode.GDCardsObjects7[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDCardsObjects6.length = k;
+gdjs.OneCardZCode.GDCardsObjects7.length = k;
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDCardsObjects6 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDCardsObjects6[i].setColor(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("DimColor").getAsString());
+/* Reuse gdjs.OneCardZCode.GDCardsObjects7 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDCardsObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDCardsObjects7[i].setColor(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("DimColor").getAsString());
 }
 }
 }
@@ -12112,33 +12118,33 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Text"), gdjs.OneCardZCode.GDTextObjects6);
+gdjs.copyArray(runtimeScene.getObjects("Text"), gdjs.OneCardZCode.GDTextObjects7);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDTextObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDTextObjects6[i].getVariableString(gdjs.OneCardZCode.GDTextObjects6[i].getVariables().getFromIndex(0)) == "PText" ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDTextObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDTextObjects7[i].getVariableString(gdjs.OneCardZCode.GDTextObjects7[i].getVariables().getFromIndex(0)) == "PText" ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDTextObjects6[k] = gdjs.OneCardZCode.GDTextObjects6[i];
+        gdjs.OneCardZCode.GDTextObjects7[k] = gdjs.OneCardZCode.GDTextObjects7[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDTextObjects6.length = k;
+gdjs.OneCardZCode.GDTextObjects7.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDTextObjects6.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDTextObjects6[i].getVariableNumber(gdjs.OneCardZCode.GDTextObjects6[i].getVariables().getFromIndex(1)) == runtimeScene.getScene().getVariables().getFromIndex(1).getChild("P").getAsNumber() ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDTextObjects7.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDTextObjects7[i].getVariableNumber(gdjs.OneCardZCode.GDTextObjects7[i].getVariables().getFromIndex(1)) == runtimeScene.getScene().getVariables().getFromIndex(1).getChild("P").getAsNumber() ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDTextObjects6[k] = gdjs.OneCardZCode.GDTextObjects6[i];
+        gdjs.OneCardZCode.GDTextObjects7[k] = gdjs.OneCardZCode.GDTextObjects7[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDTextObjects6.length = k;
+gdjs.OneCardZCode.GDTextObjects7.length = k;
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDTextObjects6 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects6.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects6[i].getBehavior("Text").setText("");
+/* Reuse gdjs.OneCardZCode.GDTextObjects7 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects7.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects7[i].getBehavior("Text").setText("");
 }
 }
 
@@ -12166,8 +12172,8 @@ let isConditionTrue_0 = false;
 {
 
 
-const repeatCount5 = runtimeScene.getScene().getVariables().getFromIndex(3).getChild("PlayerCount").getAsNumber();
-for (let repeatIndex5 = 0;repeatIndex5 < repeatCount5;++repeatIndex5) {
+const repeatCount6 = runtimeScene.getScene().getVariables().getFromIndex(3).getChild("PlayerCount").getAsNumber();
+for (let repeatIndex6 = 0;repeatIndex6 < repeatCount6;++repeatIndex6) {
 
 let isConditionTrue_0 = false;
 if (true)
@@ -12195,10 +12201,10 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Draw").getAsNumber() > 0);
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(gdjs.OneCardZCode.GDTextObjects3, gdjs.OneCardZCode.GDTextObjects4);
+gdjs.copyArray(gdjs.OneCardZCode.GDTextObjects4, gdjs.OneCardZCode.GDTextObjects5);
 
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects4[i].getBehavior("Text").setText("Draw" + gdjs.evtTools.string.newLine() + "+" + gdjs.evtTools.common.toString(runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Draw").getAsNumber()));
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects5[i].getBehavior("Text").setText("Draw" + gdjs.evtTools.string.newLine() + "+" + gdjs.evtTools.common.toString(runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Draw").getAsNumber()));
 }
 }
 }
@@ -12219,10 +12225,10 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(gdjs.OneCardZCode.GDTextObjects3, gdjs.OneCardZCode.GDTextObjects4);
+gdjs.copyArray(gdjs.OneCardZCode.GDTextObjects4, gdjs.OneCardZCode.GDTextObjects5);
 
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects4[i].getBehavior("Text").setText("Draw" + gdjs.evtTools.string.newLine() + "+" + gdjs.evtTools.common.toString(runtimeScene.getScene().getVariables().getFromIndex(3).getChild("ShowN").getAsNumber()));
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects5[i].getBehavior("Text").setText("Draw" + gdjs.evtTools.string.newLine() + "+" + gdjs.evtTools.common.toString(runtimeScene.getScene().getVariables().getFromIndex(3).getChild("ShowN").getAsNumber()));
 }
 }
 }
@@ -12248,10 +12254,10 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(gdjs.OneCardZCode.GDTextObjects3, gdjs.OneCardZCode.GDTextObjects4);
+gdjs.copyArray(gdjs.OneCardZCode.GDTextObjects4, gdjs.OneCardZCode.GDTextObjects5);
 
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects4.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects4[i].getBehavior("Text").setText("WAIT" + gdjs.evtTools.string.newLine() + gdjs.evtTools.common.toString(runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Skip").getAsNumber()));
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects5.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects5[i].getBehavior("Text").setText("WAIT" + gdjs.evtTools.string.newLine() + gdjs.evtTools.common.toString(runtimeScene.getScene().getVariables().getFromIndex(3).getChild("Skip").getAsNumber()));
 }
 }
 }
@@ -12264,13 +12270,13 @@ gdjs.copyArray(gdjs.OneCardZCode.GDTextObjects3, gdjs.OneCardZCode.GDTextObjects
 
 let isConditionTrue_0 = false;
 {
-/* Reuse gdjs.OneCardZCode.GDTextObjects3 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects3.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects3[i].setTextAlignment("center");
+/* Reuse gdjs.OneCardZCode.GDTextObjects4 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects4.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects4[i].setTextAlignment("center");
 }
 }
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects3.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects3[i].setPosition(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CamCenterX").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() * 4.6,runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CamCenterY").getAsNumber() - (gdjs.OneCardZCode.GDTextObjects3[i].getHeight()) / 2);
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects4.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects4[i].setPosition(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CamCenterX").getAsNumber() + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardWidth").getAsNumber() * 4.6,runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CamCenterY").getAsNumber() - (gdjs.OneCardZCode.GDTextObjects4[i].getHeight()) / 2);
 }
 }
 }
@@ -12312,22 +12318,22 @@ gdjs.OneCardZCode.eventsList181(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Text"), gdjs.OneCardZCode.GDTextObjects3);
+gdjs.copyArray(runtimeScene.getObjects("Text"), gdjs.OneCardZCode.GDTextObjects4);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDTextObjects3.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDTextObjects3[i].getVariableString(gdjs.OneCardZCode.GDTextObjects3[i].getVariables().getFromIndex(0)) == "PileText" ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDTextObjects4.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDTextObjects4[i].getVariableString(gdjs.OneCardZCode.GDTextObjects4[i].getVariables().getFromIndex(0)) == "PileText" ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDTextObjects3[k] = gdjs.OneCardZCode.GDTextObjects3[i];
+        gdjs.OneCardZCode.GDTextObjects4[k] = gdjs.OneCardZCode.GDTextObjects4[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDTextObjects3.length = k;
+gdjs.OneCardZCode.GDTextObjects4.length = k;
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDTextObjects3 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects3.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects3[i].getBehavior("Text").setText("");
+/* Reuse gdjs.OneCardZCode.GDTextObjects4 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects4.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects4[i].getBehavior("Text").setText("");
 }
 }
 
@@ -12581,13 +12587,13 @@ if (isConditionTrue_0) {
 
 
 };gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects2Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects2});
-gdjs.OneCardZCode.asyncCallback24060900 = function (runtimeScene, asyncObjectsList) {
+gdjs.OneCardZCode.asyncCallback25365396 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").sub(1);
 }
 gdjs.OneCardZCode.localVariables.length = 0;
 }
-gdjs.OneCardZCode.idToCallbackMap.set(24060900, gdjs.OneCardZCode.asyncCallback24060900);
+gdjs.OneCardZCode.idToCallbackMap.set(25365396, gdjs.OneCardZCode.asyncCallback25365396);
 gdjs.OneCardZCode.eventsList187 = function(runtimeScene) {
 
 {
@@ -12597,7 +12603,7 @@ gdjs.OneCardZCode.eventsList187 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardMoveWaitTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback24060900(runtimeScene, asyncObjectsList)), 24060900, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardMoveWaitTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback25365396(runtimeScene, asyncObjectsList)), 25365396, asyncObjectsList);
 }
 }
 
@@ -12933,7 +12939,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25901196);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18046492);
 }
 }
 if (isConditionTrue_0) {
@@ -12970,7 +12976,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25905284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25723796);
 }
 }
 if (isConditionTrue_0) {
@@ -13007,7 +13013,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25908564);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25724388);
 }
 }
 if (isConditionTrue_0) {
@@ -13046,7 +13052,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25912588);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24602556);
 }
 }
 if (isConditionTrue_0) {
@@ -13087,7 +13093,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25917508);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24601972);
 }
 }
 if (isConditionTrue_0) {
@@ -13128,7 +13134,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25922708);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14529132);
 }
 }
 if (isConditionTrue_0) {
@@ -13169,7 +13175,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25927620);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22854004);
 }
 }
 if (isConditionTrue_0) {
@@ -13210,7 +13216,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25905100);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27529132);
 }
 }
 if (isConditionTrue_0) {
@@ -13251,7 +13257,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25920068);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27533060);
 }
 }
 if (isConditionTrue_0) {
@@ -13292,7 +13298,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25928204);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25664180);
 }
 }
 if (isConditionTrue_0) {
@@ -14043,7 +14049,7 @@ gdjs.OneCardZCode.eventsList214(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10262868);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25172076);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("FakeLeft").setNumber(0.06);
@@ -14060,7 +14066,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10254252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12179564);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("FakeRight").setNumber(0.06);
@@ -14279,7 +14285,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10256436);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12181036);
 }
 }
 if (isConditionTrue_0) {
@@ -14299,7 +14305,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10253420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12182308);
 }
 }
 if (isConditionTrue_0) {
@@ -16744,7 +16750,7 @@ gdjs.OneCardZCode.GDTextObjects3.length = 0;
 
 gdjs.OneCardZCode.GDTextFrameObjects3.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextFrameObjects3Objects, 1, 1, "Effect2");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextFrameObjects3Objects, 1, 1, "Win");
 }
 {for(var i = 0, len = gdjs.OneCardZCode.GDTextFrameObjects3.length ;i < len;++i) {
     gdjs.OneCardZCode.GDTextFrameObjects3[i].getBehavior("Resizable").setSize(600, 400);
@@ -16754,13 +16760,13 @@ gdjs.OneCardZCode.GDTextFrameObjects3.length = 0;
     gdjs.OneCardZCode.GDTextFrameObjects3[i].returnVariable(gdjs.OneCardZCode.GDTextFrameObjects3[i].getVariables().getFromIndex(0)).setString("WinLose");
 }
 }
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDKnightObjects3Objects, 1, 1, "Effect2");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDKnightObjects3Objects, 1, 1, "Win");
 }
 {for(var i = 0, len = gdjs.OneCardZCode.GDKnightObjects3.length ;i < len;++i) {
     gdjs.OneCardZCode.GDKnightObjects3[i].getBehavior("Scale").setScale(8);
 }
 }
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextObjects3Objects, 1, 1, "Effect2");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextObjects3Objects, 1, 1, "Win");
 }
 {for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects3.length ;i < len;++i) {
     gdjs.OneCardZCode.GDTextObjects3[i].getBehavior("Scale").setScale(4);
@@ -16784,9 +16790,23 @@ gdjs.OneCardZCode.GDTextFrameObjects3.length = 0;
 
 let isConditionTrue_0 = false;
 {
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "Effect2");
+}
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "Effect");
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
 gdjs.OneCardZCode.GDTextObjects2.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextObjects2Objects, 1, 1, "Effect2");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDTextObjects2Objects, 1, 1, "Win");
 }
 {for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects2.length ;i < len;++i) {
     gdjs.OneCardZCode.GDTextObjects2[i].getBehavior("Scale").setScale(3);
@@ -16837,9 +16857,9 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 {
-{gdjs.evtsExt__WeatherControl__StartCardRain.func(runtimeScene, "Effect2", 25, 40, 20, 16, 1, 18, 4, 20, false, null);
+{gdjs.evtsExt__WeatherControl__StartCardRain.func(runtimeScene, "Win", 25, 40, 20, 16, 1, 18, 4, 20, false, null);
 }
-{gdjs.evtsExt__WeatherControl__StartCardRain.func(runtimeScene, "Effect", 25, 20, 10, 16, 1, 18, 4, 20, false, null);
+{gdjs.evtsExt__WeatherControl__StartCardRain.func(runtimeScene, "Orbs", 25, 20, 10, 16, 1, 18, 4, 20, false, null);
 }
 }
 
@@ -16853,7 +16873,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 {
-{gdjs.evtsExt__WeatherControl__Particles.func(runtimeScene, "Effect2", "Ash 2", 360, 3, 0, 80, 15, 90, 0, 0, 0, 0, 0, 255, "0;157;255", false, false, null);
+{gdjs.evtsExt__WeatherControl__Particles.func(runtimeScene, "Win", "Ash 2", 360, 4, 2, 80, 15, 90, 0, 0, 0, 0, 0, 255, "0;157;255", false, false, null);
 }
 }
 
@@ -16955,7 +16975,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10851124);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16650140);
 }
 }
 if (isConditionTrue_0) {

@@ -9,7 +9,7 @@ gdjs.evtsExt__WeatherControl__Haze = {};
 gdjs.evtsExt__WeatherControl__Haze.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__WeatherControl__Haze.userFunc0x162f060 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WeatherControl__Haze.userFunc0x1a793d0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const layerName = eventsFunctionContext.getArgument("LayerName") || "";
 
@@ -85,7 +85,7 @@ if (!runtimeScene.heatHazeSystems[layerName]) {
   runtimeScene.heatHazeSystems[layerName] = { filter, pixiContainer };
 }
 };
-gdjs.evtsExt__WeatherControl__Haze.userFunc0xb40b60 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WeatherControl__Haze.userFunc0x1a7a048 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const layerName = eventsFunctionContext.getArgument("LayerName") || "";
 const intensityPx = Number(eventsFunctionContext.getArgument("Intensity")) || 8; // pixels
@@ -130,7 +130,7 @@ gdjs.evtsExt__WeatherControl__Haze.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__WeatherControl__Haze.userFunc0x162f060(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__WeatherControl__Haze.userFunc0x1a793d0(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -138,7 +138,7 @@ gdjs.evtsExt__WeatherControl__Haze.userFunc0x162f060(runtimeScene, eventsFunctio
 {
 
 
-gdjs.evtsExt__WeatherControl__Haze.userFunc0xb40b60(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__WeatherControl__Haze.userFunc0x1a7a048(runtimeScene, eventsFunctionContext);
 
 }
 
