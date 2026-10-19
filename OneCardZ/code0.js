@@ -684,7 +684,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustResumed(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19947492);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22744364);
 }
 }
 if (isConditionTrue_0) {
@@ -1370,7 +1370,7 @@ gdjs.OneCardZCode.localVariables.pop();
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20007772);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21993316);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Up").setNumber(2);
@@ -1399,7 +1399,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20011228);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21997996);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Down").setNumber(2);
@@ -1428,7 +1428,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20014676);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21990476);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Left").setNumber(2);
@@ -1457,7 +1457,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20018188);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21987844);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Right").setNumber(2);
@@ -1486,7 +1486,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20021148);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22783980);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Settings").setNumber(2);
@@ -1515,7 +1515,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20024124);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22788700);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Action").setNumber(2);
@@ -1908,7 +1908,7 @@ gdjs.OneCardZCode.eventsList27(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20028164);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22795548);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Up").setNumber(1);
@@ -1940,7 +1940,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20031164);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22797932);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Down").setNumber(1);
@@ -1972,7 +1972,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20036972);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22782476);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Left").setNumber(1);
@@ -2004,7 +2004,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20039948);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22782628);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Right").setNumber(1);
@@ -2036,7 +2036,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20043972);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20856716);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Settings").setNumber(1);
@@ -2068,7 +2068,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20047132);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20863580);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("Action").setNumber(1);
@@ -2630,7 +2630,7 @@ gdjs.OneCardZCode.eventsList34(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20001260);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21985164);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.input.touchSimulateMouse(runtimeScene, false);
@@ -4334,7 +4334,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20265572);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20926940);
 }
 }
 if (isConditionTrue_0) {
@@ -7035,13 +7035,13 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.OneCardZCode.asyncCallback20488908 = function (runtimeScene, asyncObjectsList) {
+};gdjs.OneCardZCode.asyncCallback11564716 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").sub(1);
 }
 gdjs.OneCardZCode.localVariables.length = 0;
 }
-gdjs.OneCardZCode.idToCallbackMap.set(20488908, gdjs.OneCardZCode.asyncCallback20488908);
+gdjs.OneCardZCode.idToCallbackMap.set(11564716, gdjs.OneCardZCode.asyncCallback11564716);
 gdjs.OneCardZCode.eventsList111 = function(runtimeScene) {
 
 {
@@ -7051,7 +7051,7 @@ gdjs.OneCardZCode.eventsList111 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardSelectWaitTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback20488908(runtimeScene, asyncObjectsList)), 20488908, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardSelectWaitTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback11564716(runtimeScene, asyncObjectsList)), 11564716, asyncObjectsList);
 }
 }
 
@@ -7105,13 +7105,13 @@ gdjs.OneCardZCode.eventsList111(runtimeScene);} //Subevents end.
 }
 
 
-};gdjs.OneCardZCode.asyncCallback20491220 = function (runtimeScene, asyncObjectsList) {
+};gdjs.OneCardZCode.asyncCallback11563924 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").sub(1);
 }
 gdjs.OneCardZCode.localVariables.length = 0;
 }
-gdjs.OneCardZCode.idToCallbackMap.set(20491220, gdjs.OneCardZCode.asyncCallback20491220);
+gdjs.OneCardZCode.idToCallbackMap.set(11563924, gdjs.OneCardZCode.asyncCallback11563924);
 gdjs.OneCardZCode.eventsList113 = function(runtimeScene) {
 
 {
@@ -7121,7 +7121,7 @@ gdjs.OneCardZCode.eventsList113 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardSelectWaitTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback20491220(runtimeScene, asyncObjectsList)), 20491220, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardSelectWaitTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback11563924(runtimeScene, asyncObjectsList)), 11563924, asyncObjectsList);
 }
 }
 
@@ -7686,13 +7686,13 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.OneCardZCode.asyncCallback20507500 = function (runtimeScene, asyncObjectsList) {
+};gdjs.OneCardZCode.asyncCallback22575220 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").sub(1);
 }
 gdjs.OneCardZCode.localVariables.length = 0;
 }
-gdjs.OneCardZCode.idToCallbackMap.set(20507500, gdjs.OneCardZCode.asyncCallback20507500);
+gdjs.OneCardZCode.idToCallbackMap.set(22575220, gdjs.OneCardZCode.asyncCallback22575220);
 gdjs.OneCardZCode.eventsList122 = function(runtimeScene) {
 
 {
@@ -7702,7 +7702,7 @@ gdjs.OneCardZCode.eventsList122 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback20507500(runtimeScene, asyncObjectsList)), 20507500, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback22575220(runtimeScene, asyncObjectsList)), 22575220, asyncObjectsList);
 }
 }
 
@@ -7750,13 +7750,13 @@ gdjs.OneCardZCode.eventsList122(runtimeScene);} //Subevents end.
 }
 
 
-};gdjs.OneCardZCode.asyncCallback20513268 = function (runtimeScene, asyncObjectsList) {
+};gdjs.OneCardZCode.asyncCallback22551116 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").sub(1);
 }
 gdjs.OneCardZCode.localVariables.length = 0;
 }
-gdjs.OneCardZCode.idToCallbackMap.set(20513268, gdjs.OneCardZCode.asyncCallback20513268);
+gdjs.OneCardZCode.idToCallbackMap.set(22551116, gdjs.OneCardZCode.asyncCallback22551116);
 gdjs.OneCardZCode.eventsList124 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -7767,7 +7767,7 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber() / 2), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback20513268(runtimeScene, asyncObjectsList)), 20513268, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber() / 2), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback22551116(runtimeScene, asyncObjectsList)), 22551116, asyncObjectsList);
 }
 }
 
@@ -7817,14 +7817,14 @@ gdjs.OneCardZCode.eventsList124(runtimeScene, asyncObjectsList);} //End of subev
 }
 
 
-};gdjs.OneCardZCode.asyncCallback20511564 = function (runtimeScene, asyncObjectsList) {
+};gdjs.OneCardZCode.asyncCallback22557876 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
 
 { //Subevents
 gdjs.OneCardZCode.eventsList125(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.OneCardZCode.localVariables.length = 0;
 }
-gdjs.OneCardZCode.idToCallbackMap.set(20511564, gdjs.OneCardZCode.asyncCallback20511564);
+gdjs.OneCardZCode.idToCallbackMap.set(22557876, gdjs.OneCardZCode.asyncCallback22557876);
 gdjs.OneCardZCode.eventsList126 = function(runtimeScene) {
 
 {
@@ -7835,7 +7835,7 @@ gdjs.OneCardZCode.eventsList126 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
 for (const obj of gdjs.OneCardZCode.GDCardsObjects5) asyncObjectsList.addObject("Cards", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber() / 2), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback20511564(runtimeScene, asyncObjectsList)), 20511564, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber() / 2), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback22557876(runtimeScene, asyncObjectsList)), 22557876, asyncObjectsList);
 }
 }
 
@@ -8059,13 +8059,13 @@ gdjs.OneCardZCode.eventsList129(runtimeScene);} //End of subevents
 
 
 };gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects4Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects4});
-gdjs.OneCardZCode.asyncCallback20550036 = function (runtimeScene, asyncObjectsList) {
+gdjs.OneCardZCode.asyncCallback25651452 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").sub(1);
 }
 gdjs.OneCardZCode.localVariables.length = 0;
 }
-gdjs.OneCardZCode.idToCallbackMap.set(20550036, gdjs.OneCardZCode.asyncCallback20550036);
+gdjs.OneCardZCode.idToCallbackMap.set(25651452, gdjs.OneCardZCode.asyncCallback25651452);
 gdjs.OneCardZCode.eventsList131 = function(runtimeScene) {
 
 {
@@ -8075,20 +8075,20 @@ gdjs.OneCardZCode.eventsList131 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback20550036(runtimeScene, asyncObjectsList)), 20550036, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback25651452(runtimeScene, asyncObjectsList)), 25651452, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.OneCardZCode.asyncCallback20551948 = function (runtimeScene, asyncObjectsList) {
+};gdjs.OneCardZCode.asyncCallback23410220 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
 {gdjs.evtTools.sound.playSound(runtimeScene, "Assets/Audio/PutCard1.aac", false, runtimeScene.getGame().getVariables().getFromIndex(0).getChild("VolSound").getAsNumber(), 1);
 }
 gdjs.OneCardZCode.localVariables.length = 0;
 }
-gdjs.OneCardZCode.idToCallbackMap.set(20551948, gdjs.OneCardZCode.asyncCallback20551948);
+gdjs.OneCardZCode.idToCallbackMap.set(23410220, gdjs.OneCardZCode.asyncCallback23410220);
 gdjs.OneCardZCode.eventsList132 = function(runtimeScene) {
 
 {
@@ -8098,7 +8098,7 @@ gdjs.OneCardZCode.eventsList132 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber() / 2), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback20551948(runtimeScene, asyncObjectsList)), 20551948, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("FanTime").getAsNumber() / 2), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback23410220(runtimeScene, asyncObjectsList)), 23410220, asyncObjectsList);
 }
 }
 
@@ -12581,13 +12581,13 @@ if (isConditionTrue_0) {
 
 
 };gdjs.OneCardZCode.mapOfGDgdjs_9546OneCardZCode_9546GDCardsObjects2Objects = Hashtable.newFrom({"Cards": gdjs.OneCardZCode.GDCardsObjects2});
-gdjs.OneCardZCode.asyncCallback20867572 = function (runtimeScene, asyncObjectsList) {
+gdjs.OneCardZCode.asyncCallback24060900 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CardMove").sub(1);
 }
 gdjs.OneCardZCode.localVariables.length = 0;
 }
-gdjs.OneCardZCode.idToCallbackMap.set(20867572, gdjs.OneCardZCode.asyncCallback20867572);
+gdjs.OneCardZCode.idToCallbackMap.set(24060900, gdjs.OneCardZCode.asyncCallback24060900);
 gdjs.OneCardZCode.eventsList187 = function(runtimeScene) {
 
 {
@@ -12597,7 +12597,7 @@ gdjs.OneCardZCode.eventsList187 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.OneCardZCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardMoveWaitTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback20867572(runtimeScene, asyncObjectsList)), 20867572, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("CardMoveWaitTime").getAsNumber()), (runtimeScene) => (gdjs.OneCardZCode.asyncCallback24060900(runtimeScene, asyncObjectsList)), 24060900, asyncObjectsList);
 }
 }
 
@@ -12933,7 +12933,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20873276);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25901196);
 }
 }
 if (isConditionTrue_0) {
@@ -12970,7 +12970,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20876092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25905284);
 }
 }
 if (isConditionTrue_0) {
@@ -13007,7 +13007,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20877892);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25908564);
 }
 }
 if (isConditionTrue_0) {
@@ -13046,7 +13046,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20880108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25912588);
 }
 }
 if (isConditionTrue_0) {
@@ -13087,7 +13087,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20883660);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25917508);
 }
 }
 if (isConditionTrue_0) {
@@ -13128,7 +13128,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20887796);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25922708);
 }
 }
 if (isConditionTrue_0) {
@@ -13169,7 +13169,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20891476);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25927620);
 }
 }
 if (isConditionTrue_0) {
@@ -13210,7 +13210,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20895124);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25905100);
 }
 }
 if (isConditionTrue_0) {
@@ -13251,7 +13251,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20895468);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25920068);
 }
 }
 if (isConditionTrue_0) {
@@ -13292,7 +13292,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20902628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25928204);
 }
 }
 if (isConditionTrue_0) {
@@ -13923,9 +13923,9 @@ let isConditionTrue_0 = false;
 }
 {gdjs.evtTools.variable.valuePush(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CD"), "Right");
 }
-{gdjs.evtTools.variable.valuePush(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CD"), "Action");
+{gdjs.evtTools.variable.valuePush(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CD"), "Confirm");
 }
-{gdjs.evtTools.variable.valuePush(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CD"), "Menu");
+{gdjs.evtTools.variable.valuePush(runtimeScene.getScene().getVariables().getFromIndex(1).getChild("CD"), "Settings");
 }
 
 { //Subevents
@@ -14043,7 +14043,7 @@ gdjs.OneCardZCode.eventsList214(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20934636);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10262868);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("FakeLeft").setNumber(0.06);
@@ -14060,7 +14060,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20937540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10254252);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(1).getChild("FakeRight").setNumber(0.06);
@@ -14279,7 +14279,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20938172);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10256436);
 }
 }
 if (isConditionTrue_0) {
@@ -14299,7 +14299,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20939396);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10253420);
 }
 }
 if (isConditionTrue_0) {
@@ -16652,7 +16652,7 @@ if (isConditionTrue_0) {
 /* Reuse gdjs.OneCardZCode.GDTextObjects1 */
 gdjs.copyArray(runtimeScene.getObjects("TextFrame"), gdjs.OneCardZCode.GDTextFrameObjects1);
 {for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects1.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects1[i].getBehavior("Text").setText(gdjs.evtTools.string.strRepeat("Hold Settings button to restart game", 1 - Math.min(1, runtimeScene.getScene().getVariables().getFromIndex(0).getChild("SettingsPage").getAsNumber())) + gdjs.evtTools.string.strRepeat("Default controls which cannot be reused\nArrows, D-Pad and Analogs, Space, Enter\nInvalid input will reset to last valid input", 1 - Math.abs(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("SettingsPage").getAsNumber() - 1)) + gdjs.evtTools.string.strRepeat("Left side of screen is reserved for D-Pad\n40% of right from top for Settings button\n60% of right from bottom for Action button", gdjs.evtTools.common.trunc(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("SettingsPage").getAsNumber() / 2)));
+    gdjs.OneCardZCode.GDTextObjects1[i].getBehavior("Text").setText(gdjs.evtTools.string.strRepeat("Hold Settings button to restart game", 1 - Math.min(1, runtimeScene.getScene().getVariables().getFromIndex(0).getChild("SettingsPage").getAsNumber())) + gdjs.evtTools.string.strRepeat("Invalid input resets to previous input\nDefault controls which cannot be reused\nNumpad (2,4,5,6,7,8), Space, Enter, Arrows, D-Pad and Analogs", 1 - Math.abs(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("SettingsPage").getAsNumber() - 1)) + gdjs.evtTools.string.strRepeat("Left side of screen is reserved for D-Pad\n40% of right from top for Settings button\n60% of right from bottom for Confirm button", gdjs.evtTools.common.trunc(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("SettingsPage").getAsNumber() / 2)));
 }
 }
 {for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects1.length ;i < len;++i) {
@@ -16809,23 +16809,37 @@ gdjs.OneCardZCode.GDTextObjects2.length = 0;
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Text"), gdjs.OneCardZCode.GDTextObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Text"), gdjs.OneCardZCode.GDTextObjects3);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDTextObjects2.length;i<l;++i) {
-    if ( gdjs.OneCardZCode.GDTextObjects2[i].getVariableString(gdjs.OneCardZCode.GDTextObjects2[i].getVariables().getFromIndex(0)) == "WinLose" ) {
+for (var i = 0, k = 0, l = gdjs.OneCardZCode.GDTextObjects3.length;i<l;++i) {
+    if ( gdjs.OneCardZCode.GDTextObjects3[i].getVariableString(gdjs.OneCardZCode.GDTextObjects3[i].getVariables().getFromIndex(0)) == "WinLose" ) {
         isConditionTrue_0 = true;
-        gdjs.OneCardZCode.GDTextObjects2[k] = gdjs.OneCardZCode.GDTextObjects2[i];
+        gdjs.OneCardZCode.GDTextObjects3[k] = gdjs.OneCardZCode.GDTextObjects3[i];
         ++k;
     }
 }
-gdjs.OneCardZCode.GDTextObjects2.length = k;
+gdjs.OneCardZCode.GDTextObjects3.length = k;
 if (isConditionTrue_0) {
-/* Reuse gdjs.OneCardZCode.GDTextObjects2 */
-{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects2.length ;i < len;++i) {
-    gdjs.OneCardZCode.GDTextObjects2[i].getBehavior("Text").setText("CONGRATULATIONS!!!\nYOU WON!!!");
+/* Reuse gdjs.OneCardZCode.GDTextObjects3 */
+{for(var i = 0, len = gdjs.OneCardZCode.GDTextObjects3.length ;i < len;++i) {
+    gdjs.OneCardZCode.GDTextObjects3[i].getBehavior("Text").setText("CONGRATULATIONS!!!\nYOU WON!!!");
 }
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtsExt__WeatherControl__StartCardRain.func(runtimeScene, "Effect2", 25, 40, 20, 16, 1, 18, 4, 20, false, null);
+}
+{gdjs.evtsExt__WeatherControl__StartCardRain.func(runtimeScene, "Effect", 25, 20, 10, 16, 1, 18, 4, 20, false, null);
 }
 }
 
@@ -16833,6 +16847,18 @@ if (isConditionTrue_0) {
 
 
 };gdjs.OneCardZCode.eventsList248 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtsExt__WeatherControl__Particles.func(runtimeScene, "Effect2", "Ash 2", 360, 3, 0, 80, 15, 90, 0, 0, 0, 0, 0, 255, "0;157;255", false, false, null);
+}
+}
+
+}
+
 
 {
 
@@ -16929,7 +16955,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21042396);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10851124);
 }
 }
 if (isConditionTrue_0) {
